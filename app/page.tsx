@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { withBasePath } from '@/lib/base-path'
 
 declare global {
   interface Window {
@@ -586,7 +587,7 @@ export default function Page() {
               </div>
 
               <figure className="shot" style={{ margin: 0 }}>
-                <img src="/images/hero-aerial.jpg" width={1100} height={850} alt="Aerial view of Palm Springs in Jebel Ali, next to Palm Jebel Ali" />
+                <img src={withBasePath("/images/hero-aerial.jpg")} width={1100} height={850} alt="Aerial view of Palm Springs in Jebel Ali, next to Palm Jebel Ali" />
                 <figcaption>{L.ui.capAerial}</figcaption>
               </figure>
             </div>
@@ -625,11 +626,11 @@ export default function Page() {
 
             <div className="pairs">
               <figure className="shot" style={{ margin: 0 }}>
-                <img src="/images/villa.jpg" width={1400} height={788} alt="Modern Nakheel villa with pool and garden" loading="lazy" />
+                <img src={withBasePath("/images/villa.jpg")} width={1400} height={788} alt="Modern Nakheel villa with pool and garden" loading="lazy" />
                 <figcaption>{L.ui.capVilla}</figcaption>
               </figure>
               <figure className="shot" style={{ margin: 0 }}>
-                <img src="/images/community.jpg" width={1200} height={670} alt="Park and pool in a Nakheel community" loading="lazy" />
+                <img src={withBasePath("/images/community.jpg")} width={1200} height={670} alt="Park and pool in a Nakheel community" loading="lazy" />
                 <figcaption>{L.ui.capCommunity}</figcaption>
               </figure>
             </div>
@@ -651,7 +652,7 @@ export default function Page() {
                 </ul>
               </div>
               <figure className="shot" style={{ margin: 0 }}>
-                <img src="/images/palm-jebel-ali.jpg" width={900} height={675} alt="Palm Jebel Ali at dusk" loading="lazy" />
+                <img src={withBasePath("/images/palm-jebel-ali.jpg")} width={900} height={675} alt="Palm Jebel Ali at dusk" loading="lazy" />
                 <figcaption>{L.ui.capPalm}</figcaption>
               </figure>
             </div>
@@ -672,7 +673,7 @@ export default function Page() {
               <p className="sec-lede">{L.ui.askLede}</p>
 
               <div className="agent">
-                <div className="face"><img src="/isa-melo-agent.jpg" width={68} height={68} alt={`${CONFIG.agentName}, Dubai property consultant`} loading="lazy" /></div>
+                <div className="face"><img src={withBasePath("/isa-melo-agent.jpg")} width={68} height={68} alt={`${CONFIG.agentName}, Dubai property consultant`} loading="lazy" /></div>
                 <dl>
                   <dt>{CONFIG.agentName}</dt>
                   <dd>{L.ui.role}</dd>

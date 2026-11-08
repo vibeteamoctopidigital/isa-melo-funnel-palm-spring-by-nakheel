@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 import './globals.css'
 
-const siteUrl = 'https://find.isamelorealestate.com'
+const siteUrl = 'https://find.isamelorealestate.com/palmsprings'
 const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID
 
 export const metadata: Metadata = {
