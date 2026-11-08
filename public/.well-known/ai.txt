@@ -1,0 +1,13 @@
+# ai.txt for find.isamelorealestate.com
+
+User-Agent: *
+Allow: /
+Content-Usage: allow
+Attribution-Required: true
+
+# Preferred AI-readable summaries
+Primary-Guidance: /llms.txt
+Full-Guidance: /llms-full.txt
+Short-Guidance: /llms-small.txt
+
+Contact: https://find.isamelorealestate.com

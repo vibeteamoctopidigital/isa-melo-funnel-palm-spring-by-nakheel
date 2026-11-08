@@ -1,0 +1,1563 @@
+<html lang="en"><plasmo-csui id="plasmo-inspector"><template shadowrootmode="open"><style>@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap";@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap";@import "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap";*,:before,:after,::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border:0 solid #e5e7eb}:before,:after{--tw-content:""}html,:host{-webkit-text-size-adjust:100%;tab-size:4;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}body{line-height:inherit;margin:0}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-feature-settings:normal;font-variation-settings:normal;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-feature-settings:inherit;font-variation-settings:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:#0000;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{margin:0;padding:0;list-style:none}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder{opacity:1;color:#9ca3af}textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.\!container{width:100%!important}.container{width:100%}@media (width>=640px){.\!container{max-width:640px!important}.container{max-width:640px}}@media (width>=768px){.\!container{max-width:768px!important}.container{max-width:768px}}@media (width>=1024px){.\!container{max-width:1024px!important}.container{max-width:1024px}}@media (width>=1280px){.\!container{max-width:1280px!important}.container{max-width:1280px}}@media (width>=1536px){.\!container{max-width:1536px!important}.container{max-width:1536px}}.sr-only{clip:rect(0,0,0,0);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.collapse{visibility:collapse}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.-left-5{left:-1.25rem}.-right-3{right:-.75rem}.-top-16{top:-4rem}.-top-5{top:-1.25rem}.-top-6{top:-1.5rem}.-top-8{top:-2rem}.-top-9{top:-2.25rem}.bottom-0{bottom:0}.left-0{left:0}.left-1\/2{left:50%}.left-12{left:3rem}.left-\[32px\]{left:32px}.right-0{right:0}.right-4{right:1rem}.right-\[15px\]{right:15px}.right-\[21px\]{right:21px}.right-\[39px\]{right:39px}.top-0{top:0}.top-0\.5{top:.125rem}.top-4{top:1rem}.top-40{top:10rem}.top-8{top:2rem}.top-\[120px\]{top:120px}.top-\[127px\]{top:127px}.top-\[13px\]{top:13px}.top-\[23px\]{top:23px}.top-\[250px\]{top:250px}.top-\[47px\]{top:47px}.top-auto{top:auto}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.z-\[1000\]{z-index:1000}.z-\[999999\]{z-index:999999}.col-span-2{grid-column:span 2/span 2}.m-0{margin:0}.m-1{margin:.25rem}.m-2{margin:.5rem}.m-3{margin:.75rem}.m-4{margin:1rem}.m-auto{margin:auto}.-mx-4{margin-left:-1rem;margin-right:-1rem}.mx-0{margin-left:0;margin-right:0}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.my-0{margin-top:0;margin-bottom:0}.my-1{margin-top:.25rem;margin-bottom:.25rem}.my-10{margin-top:2.5rem;margin-bottom:2.5rem}.my-12{margin-top:3rem;margin-bottom:3rem}.my-16{margin-top:4rem;margin-bottom:4rem}.my-2{margin-top:.5rem;margin-bottom:.5rem}.my-2\.5{margin-top:.625rem;margin-bottom:.625rem}.my-3{margin-top:.75rem;margin-bottom:.75rem}.my-4{margin-top:1rem;margin-bottom:1rem}.my-5{margin-top:1.25rem;margin-bottom:1.25rem}.my-6{margin-top:1.5rem;margin-bottom:1.5rem}.my-8{margin-top:2rem;margin-bottom:2rem}.-mb-2{margin-bottom:-.5rem}.mb-0{margin-bottom:0}.mb-1{margin-bottom:.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-1{margin-left:.25rem}.ml-2{margin-left:.5rem}.ml-3{margin-left:.75rem}.ml-4{margin-left:1rem}.ml-5{margin-left:1.25rem}.ml-\[-1rem\]{margin-left:-1rem}.ml-auto{margin-left:auto}.mr-0{margin-right:0}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mr-3{margin-right:.75rem}.mr-4{margin-right:1rem}.mr-\[-1rem\]{margin-right:-1rem}.ms-3{margin-inline-start:.75rem}.mt-0{margin-top:0}.mt-1{margin-top:.25rem}.mt-10{margin-top:2.5rem}.mt-12{margin-top:3rem}.mt-16{margin-top:4rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.mt-\[-1rem\]{margin-top:-1rem}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.contents{display:contents}.hidden{display:none}.aspect-square{aspect-ratio:1}.h-10{height:2.5rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-2{height:.5rem}.h-3{height:.75rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-\[140px\]{height:140px}.h-\[14px\]{height:14px}.h-\[152px\]{height:152px}.h-\[1px\]{height:1px}.h-\[24px\]{height:24px}.h-\[251px\]{height:251px}.h-\[252px\]{height:252px}.h-\[280px\]{height:280px}.h-\[32px\]{height:32px}.h-\[360px\]{height:360px}.h-\[36px\]{height:36px}.h-\[643px\]{height:643px}.h-\[650px\]{height:650px}.h-\[6px\]{height:6px}.h-\[80\%\]{height:80%}.h-\[88px\]{height:88px}.h-auto{height:auto}.h-full{height:100%}.h-screen{height:100vh}.max-h-\[400px\]{max-height:400px}.max-h-\[594px\]{max-height:594px}.max-h-\[643px\]{max-height:643px}.max-h-\[644px\]{max-height:644px}.max-h-\[648px\]{max-height:648px}.max-h-\[794px\]{max-height:794px}.max-h-\[80vh\]{max-height:80vh}.max-h-\[813px\]{max-height:813px}.max-h-fit{max-height:fit-content}.max-h-full{max-height:100%}.min-h-0{min-height:0}.min-h-\[50px\]{min-height:50px}.w-1\/2{width:50%}.w-10{width:2.5rem}.w-11\/12{width:91.6667%}.w-12{width:3rem}.w-14{width:3.5rem}.w-16{width:4rem}.w-3{width:.75rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-\[106px\]{width:106px}.w-\[108px\]{width:108px}.w-\[116px\]{width:116px}.w-\[120px\]{width:120px}.w-\[130px\]{width:130px}.w-\[140px\]{width:140px}.w-\[147px\]{width:147px}.w-\[167px\]{width:167px}.w-\[168px\]{width:168px}.w-\[177px\]{width:177px}.w-\[180px\]{width:180px}.w-\[195px\]{width:195px}.w-\[222px\]{width:222px}.w-\[296px\]{width:296px}.w-\[30px\]{width:30px}.w-\[328px\]{width:328px}.w-\[360px\]{width:360px}.w-\[48\%\]{width:48%}.w-\[50\%\]{width:50%}.w-\[60px\]{width:60px}.w-\[6px\]{width:6px}.w-\[78px\]{width:78px}.w-\[90\%\]{width:90%}.w-\[97px\]{width:97px}.w-\[98px\]{width:98px}.w-\[calc\(100\%-19px\)\]{width:calc(100% - 19px)}.w-auto{width:auto}.w-fit{width:fit-content}.w-full{width:100%}.w-min{width:min-content}.min-w-48{min-width:12rem}.min-w-5{min-width:1.25rem}.min-w-\[138px\]{min-width:138px}.min-w-\[160px\]{min-width:160px}.max-w-\[150px\]{max-width:150px}.max-w-\[220px\]{max-width:220px}.max-w-\[290px\]{max-width:290px}.max-w-\[450px\]{max-width:450px}.max-w-\[500px\]{max-width:500px}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.max-w-xl{max-width:36rem}.flex-1{flex:1}.flex-shrink-0,.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.-translate-y-16{--tw-translate-y:-4rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.-translate-y-2{--tw-translate-y:-.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.-translate-y-6{--tw-translate-y:-1.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-x-0{--tw-translate-x:0px;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-x-0\.5{--tw-translate-x:.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-x-3{--tw-translate-x:.75rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-x-8{--tw-translate-x:2rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-x-\[0\.6rem\]{--tw-translate-x:.6rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-y-2{--tw-translate-y:.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.translate-y-\[23px\]{--tw-translate-y:23px;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.scale-95{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse-slow{animation:3s cubic-bezier(.4,0,.6,1) infinite pulse}.cursor-default{cursor:default}.cursor-grab{cursor:grab}.cursor-grabbing{cursor:grabbing}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.select-none{user-select:none}.resize{resize:both}.list-none{list-style-type:none}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.flex-nowrap{flex-wrap:nowrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-0{gap:0}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-\[10px\]{gap:10px}.gap-x-1{-moz-column-gap:.25rem;column-gap:.25rem}.gap-x-2{-moz-column-gap:.5rem;column-gap:.5rem}.gap-x-3{-moz-column-gap:.75rem;column-gap:.75rem}.gap-y-2{row-gap:.5rem}.gap-y-3{row-gap:.75rem}.gap-y-4{row-gap:1rem}.gap-y-5{row-gap:1.25rem}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.25rem*var(--tw-space-x-reverse));margin-left:calc(.25rem*calc(1 - var(--tw-space-x-reverse)))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-gray-100>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(243 244 246/var(--tw-divide-opacity,1))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-visible{overflow:visible}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-x-scroll{overflow-x:scroll}.overflow-y-scroll{overflow-y:scroll}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.whitespace-normal{white-space:normal}.whitespace-nowrap{white-space:nowrap}.whitespace-pre-line{white-space:pre-line}.whitespace-pre-wrap{white-space:pre-wrap}.break-words{overflow-wrap:break-word}.rounded{border-radius:.25rem}.rounded-\[3px\]{border-radius:3px}.rounded-\[4px\]{border-radius:4px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded-b-lg{border-bottom-right-radius:.5rem;border-bottom-left-radius:.5rem}.rounded-b-xl{border-bottom-right-radius:.75rem;border-bottom-left-radius:.75rem}.rounded-t-lg{border-top-left-radius:.5rem;border-top-right-radius:.5rem}.rounded-t-xl{border-top-left-radius:.75rem;border-top-right-radius:.75rem}.border{border-width:1px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-none{border-style:none}.border-black\/10{border-color:#0000001a}.border-black\/15{border-color:#00000026}.border-black\/20{border-color:#0003}.border-black\/25{border-color:#00000040}.border-black\/8{border-color:#00000014}.border-black\/\[0\.16\]{border-color:#00000029}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity,1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity,1))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-peeper-purple{--tw-border-opacity:1;border-color:rgb(93 45 230/var(--tw-border-opacity,1))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity,1))}.border-surface-gray{--tw-border-opacity:1;border-color:rgb(245 245 245/var(--tw-border-opacity,1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity,1))}.border-white\/10{border-color:#ffffff1a}.border-white\/15{border-color:#ffffff26}.border-white\/20{border-color:#fff3}.border-white\/25{border-color:#ffffff40}.border-white\/8{border-color:#ffffff14}.border-t-gray-200{--tw-border-opacity:1;border-top-color:rgb(229 231 235/var(--tw-border-opacity,1))}.border-t-white\/15{border-top-color:#ffffff26}.bg-\[\#05381A\]{--tw-bg-opacity:1;background-color:rgb(5 56 26/var(--tw-bg-opacity,1))}.bg-\[\#580808\]{--tw-bg-opacity:1;background-color:rgb(88 8 8/var(--tw-bg-opacity,1))}.bg-\[\#C5F1D8\]{--tw-bg-opacity:1;background-color:rgb(197 241 216/var(--tw-bg-opacity,1))}.bg-\[\#C7C7C7\]{--tw-bg-opacity:1;background-color:rgb(199 199 199/var(--tw-bg-opacity,1))}.bg-\[\#EBEBEB\]{--tw-bg-opacity:1;background-color:rgb(235 235 235/var(--tw-bg-opacity,1))}.bg-\[\#FCDEDE\]{--tw-bg-opacity:1;background-color:rgb(252 222 222/var(--tw-bg-opacity,1))}.bg-active-tab{background-color:#5d2de614}.bg-active-tab-hover{background-color:#5d2de629}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity,1))}.bg-black\/10{background-color:#0000001a}.bg-black\/25{background-color:#00000040}.bg-black\/30{background-color:#0000004d}.bg-black\/40{background-color:#0006}.bg-black\/5{background-color:#0000000d}.bg-black\/60{background-color:#0009}.bg-black\/8{background-color:#00000014}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity,1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity,1))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity,1))}.bg-peeper-dark-gray{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity,1))}.bg-peeper-dark-pink\/15{background-color:#fb3aa226}.bg-peeper-dark-pink\/25{background-color:#fb3aa240}.bg-peeper-gray{--tw-bg-opacity:1;background-color:rgb(102 102 102/var(--tw-bg-opacity,1))}.bg-peeper-green{--tw-bg-opacity:1;background-color:rgb(5 56 26/var(--tw-bg-opacity,1))}.bg-peeper-light-green{--tw-bg-opacity:1;background-color:rgb(211 248 225/var(--tw-bg-opacity,1))}.bg-peeper-pink-accent{--tw-bg-opacity:1;background-color:rgb(255 235 246/var(--tw-bg-opacity,1))}.bg-peeper-purple{--tw-bg-opacity:1;background-color:rgb(93 45 230/var(--tw-bg-opacity,1))}.bg-peeper-purple\/15{background-color:#5d2de626}.bg-peeper-purple\/35{background-color:#5d2de659}.bg-peeper-purple\/50{background-color:#5d2de680}.bg-peeper-purple\/8{background-color:#5d2de614}.bg-peeper-white-hover{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity,1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(14 14 14/var(--tw-bg-opacity,1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity,1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity,1))}.bg-surface-gray{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity,1))}.bg-transparent{background-color:#0000}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/10{background-color:#ffffff1a}.bg-white\/15{background-color:#ffffff26}.bg-white\/5{background-color:#ffffff0d}.bg-white\/8{background-color:#ffffff14}.bg-opacity-80{--tw-bg-opacity:.8}.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top,var(--tw-gradient-stops))}.from-black\/0{--tw-gradient-from:#0000 var(--tw-gradient-from-position);--tw-gradient-to:#0000 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-white\/0{--tw-gradient-from:#fff0 var(--tw-gradient-from-position);--tw-gradient-to:#fff0 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-white\/80{--tw-gradient-from:#fffc var(--tw-gradient-from-position);--tw-gradient-to:#fff0 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-white\/50{--tw-gradient-to:#fff0 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#ffffff80 var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-white\/70{--tw-gradient-to:#fff0 var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#ffffffb3 var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-black\/60{--tw-gradient-to:#0009 var(--tw-gradient-to-position)}.to-white\/0{--tw-gradient-to:#fff0 var(--tw-gradient-to-position)}.to-white\/100{--tw-gradient-to:#fff var(--tw-gradient-to-position)}.fill-\[\#5D2DE6\]{fill:#5d2de6}.fill-\[\#999\]{fill:#999}.fill-\[\#9E81F0\]{fill:#9e81f0}.fill-\[\#C7C7C7\]{fill:#c7c7c7}.fill-inspector-props{fill:#999}.fill-peeper-dark-gray{fill:#262626}.stroke-peeper-gray{stroke:#666}.stroke-peeper-light-pink{stroke:#9e81f0}.stroke-peeper-purple{stroke:#5d2de6}.stroke-peeper-white-secondary{stroke:#c7c7c7}.object-contain{-o-object-fit:contain;object-fit:contain}.object-cover{-o-object-fit:cover;object-fit:cover}.p-0{padding:0}.p-1{padding:.25rem}.p-1\.5{padding:.375rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-\[12px\]{padding:12px}.px-0{padding-left:0;padding-right:0}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-\[10px\]{padding-left:10px;padding-right:10px}.py-0{padding-top:0;padding-bottom:0}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-8{padding-top:2rem;padding-bottom:2rem}.py-\[2px\]{padding-top:2px;padding-bottom:2px}.pb-1{padding-bottom:.25rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pl-1{padding-left:.25rem}.pl-3{padding-left:.75rem}.pr-2{padding-right:.5rem}.pt-1{padding-top:.25rem}.pt-2{padding-top:.5rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-roboto{font-family:Roboto,sans-serif,Roboto Mono}.font-roboto-mono{font-family:Roboto Mono}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\[10px\]{font-size:10px}.text-\[12px\]{font-size:12px}.text-\[14px\]{font-size:14px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-\[500\]{font-weight:500}.font-bold{font-weight:700}.font-light{font-weight:300}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.\!capitalize{text-transform:capitalize!important}.capitalize{text-transform:capitalize}.normal-case{text-transform:none}.leading-120{line-height:120%}.leading-130{line-height:130%}.leading-140{line-height:140%}.leading-6{line-height:1.5rem}.leading-none{line-height:1}.leading-paragraph{line-height:140%}.tracking-14{letter-spacing:-.14px}.tracking-16{letter-spacing:-.16px}.tracking-2{letter-spacing:-.2px}.tracking-24{letter-spacing:-.24px}.tracking-4{letter-spacing:-.4px}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.text-\[\#0E0E0E\]{--tw-text-opacity:1;color:rgb(14 14 14/var(--tw-text-opacity,1))}.text-\[\#580808\]{--tw-text-opacity:1;color:rgb(88 8 8/var(--tw-text-opacity,1))}.text-\[\#C5F1D8\]{--tw-text-opacity:1;color:rgb(197 241 216/var(--tw-text-opacity,1))}.text-\[\#F7CECE\]{--tw-text-opacity:1;color:rgb(247 206 206/var(--tw-text-opacity,1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity,1))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity,1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity,1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity,1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity,1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.text-inspector-props{--tw-text-opacity:1;color:rgb(153 153 153/var(--tw-text-opacity,1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12/var(--tw-text-opacity,1))}.text-peeper-dark-gray{--tw-text-opacity:1;color:rgb(38 38 38/var(--tw-text-opacity,1))}.text-peeper-gray{--tw-text-opacity:1;color:rgb(102 102 102/var(--tw-text-opacity,1))}.text-peeper-green{--tw-text-opacity:1;color:rgb(5 56 26/var(--tw-text-opacity,1))}.text-peeper-light-pink{--tw-text-opacity:1;color:rgb(158 129 240/var(--tw-text-opacity,1))}.text-peeper-pink{--tw-text-opacity:1;color:rgb(201 46 130/var(--tw-text-opacity,1))}.text-peeper-purple{--tw-text-opacity:1;color:rgb(93 45 230/var(--tw-text-opacity,1))}.text-peeper-white{--tw-text-opacity:1;color:rgb(222 222 222/var(--tw-text-opacity,1))}.text-peeper-white-secondary{--tw-text-opacity:1;color:rgb(199 199 199/var(--tw-text-opacity,1))}.text-primary{--tw-text-opacity:1;color:rgb(14 14 14/var(--tw-text-opacity,1))}.text-primary\/60{color:#0e0e0e99}.text-primary\/80{color:#0e0e0ecc}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.text-red-800{--tw-text-opacity:1;color:rgb(153 27 27/var(--tw-text-opacity,1))}.text-secondary{--tw-text-opacity:1;color:rgb(38 38 38/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.text-white\/60{color:#fff9}.text-white\/80{color:#fffc}.text-white\/90{color:#ffffffe6}.opacity-0{opacity:0}.opacity-100{opacity:1}.opacity-30{opacity:.3}.opacity-50{opacity:.5}.opacity-60{opacity:.6}.\!shadow{--tw-shadow:0 1px 3px 0 #0000001a,0 1px 2px -1px #0000001a!important;--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)!important;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)!important}.shadow{--tw-shadow:0 1px 3px 0 #0000001a,0 1px 2px -1px #0000001a;--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px #0000001a,0 2px 4px -2px #0000001a;--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 #0000000d;--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px #0000001a,0 8px 10px -6px #0000001a;--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-white{--tw-shadow-color:#fff;--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.outline-2{outline-width:2px}.outline-offset-4{outline-offset:4px}.outline-blue-400{outline-color:#60a5fa}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset)0 0 0 calc(3px + var(--tw-ring-offset-width))var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring-4{--tw-ring-offset-shadow:var(--tw-ring-inset)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset)0 0 0 calc(4px + var(--tw-ring-offset-width))var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring-blue-400{--tw-ring-opacity:1;--tw-ring-color:rgb(96 165 250/var(--tw-ring-opacity,1))}.ring-offset-2{--tw-ring-offset-width:2px}.blur{--tw-blur:blur(8px);filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.filter{filter:var(--tw-blur)var(--tw-brightness)var(--tw-contrast)var(--tw-grayscale)var(--tw-hue-rotate)var(--tw-invert)var(--tw-saturate)var(--tw-sepia)var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);backdrop-filter:var(--tw-backdrop-blur)var(--tw-backdrop-brightness)var(--tw-backdrop-contrast)var(--tw-backdrop-grayscale)var(--tw-backdrop-hue-rotate)var(--tw-backdrop-invert)var(--tw-backdrop-opacity)var(--tw-backdrop-saturate)var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-property:all;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-opacity{transition-property:opacity;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-transform{transition-property:transform;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-0{transition-duration:0s}.duration-100{transition-duration:.1s}.duration-150{transition-duration:.15s}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.duration-500{transition-duration:.5s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@custom-variant dark (&:where(.dark,.dark*));body{cursor:default;margin:0;padding:0;font-family:Inter,sans-serif;font-size:16px;line-height:1.5}#plasmo-shadow-container{position:fixed!important}.hide-scrollbar::-webkit-scrollbar{display:none}.hide-scrollbar{-ms-overflow-style:none;scrollbar-width:none}.fill-available{height:stretch}.transparency-grid{background-color:#fff;background-image:linear-gradient(45deg,#d4d4d40f 25%,#0000 25%),linear-gradient(-45deg,#d4d4d481 25%,#0000 25%),linear-gradient(45deg,#0000 75%,#d4d4d481 75%),linear-gradient(-45deg,#0000 75%,#d4d4d481 75%);background-position:0 0,0 10px,10px -10px,-10px 0;background-size:20px 20px}.transparency-grid-black{background-color:#000;background-image:repeating-conic-gradient(#1a1a1a 0% 25%,#333 0% 50%);background-size:20px 20px}.border-element{background:#f5f5f5;position:absolute}.border-element-dark{background:#262626;position:absolute}.top{width:85%;height:4px;top:-1px;left:50%;transform:translate(-50%)}.bottom{width:85%;height:4px;bottom:-1px;left:50%;transform:translate(-50%)}.left{width:4px;height:79%;top:50%;left:-1px;transform:translateY(-50%)}.right{width:4px;height:79%;top:50%;right:-1px;transform:translateY(-50%)}.shadow{box-shadow:0 1px 3px #0000001f}.button_shadow{box-shadow:0 3px 3px -3px #00000029}.soft-shadow{box-shadow:0 4px 4px -4px #00000029}.dropdown-shadow{box-shadow:0 4px 4px -4px #00000040}.blur-fade:after{content:"";pointer-events:none;background:linear-gradient(270deg,#fff,#0000);width:80px;position:absolute;top:0;bottom:0;right:0}.blur-fade-dark:after{content:"";pointer-events:none;background:linear-gradient(270deg,#0e0e0e,#0000);width:80px;position:absolute;top:0;bottom:0;right:0}.gradient-background{background:linear-gradient(241deg,#fef6eb -.17%,#fef0f8 100%);transition:transform .3s ease-in-out;position:absolute;inset:0}.hover\:border-gray-300:hover{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity,1))}.hover\:bg-active-tab:hover{background-color:#5d2de614}.hover\:bg-active-tab-hover:hover{background-color:#5d2de629}.hover\:bg-black\/10:hover{background-color:#0000001a}.hover\:bg-black\/5:hover{background-color:#0000000d}.hover\:bg-black\/8:hover{background-color:#00000014}.hover\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity,1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity,1))}.hover\:bg-peeper-dark-gray:hover{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity,1))}.hover\:bg-peeper-pink-accent\/80:hover{background-color:#ffebf6cc}.hover\:bg-peeper-purple-hover:hover{--tw-bg-opacity:1;background-color:rgb(74 36 184/var(--tw-bg-opacity,1))}.hover\:bg-peeper-purple\/15:hover{background-color:#5d2de626}.hover\:bg-peeper-purple\/30:hover{background-color:#5d2de64d}.hover\:bg-peeper-purple\/50:hover{background-color:#5d2de680}.hover\:bg-peeper-purple\/90:hover{background-color:#5d2de6e6}.hover\:bg-peeper-white-hover:hover{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity,1))}.hover\:bg-peeper-white-hover\/15:hover{background-color:#f5f5f526}.hover\:bg-peeper-white-hover\/5:hover{background-color:#f5f5f50d}.hover\:bg-primary\/80:hover{background-color:#0e0e0ecc}.hover\:bg-surface-gray:hover{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity,1))}.hover\:bg-white\/10:hover{background-color:#ffffff1a}.hover\:bg-white\/15:hover{background-color:#ffffff26}.hover\:bg-white\/20:hover{background-color:#fff3}.hover\:bg-white\/25:hover{background-color:#ffffff40}.hover\:bg-white\/30:hover{background-color:#ffffff4d}.hover\:bg-white\/5:hover{background-color:#ffffff0d}.hover\:bg-white\/8:hover{background-color:#ffffff14}.hover\:bg-opacity-100:hover{--tw-bg-opacity:1}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.hover\:text-primary:hover{--tw-text-opacity:1;color:rgb(14 14 14/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:opacity-70:hover{opacity:.7}.focus\:outline-none:focus{outline-offset:2px;outline:2px solid #0000}.active\:cursor-grabbing:active{cursor:grabbing}.group:hover .group-hover\:border-\[\#7241FF\]{--tw-border-opacity:1;border-color:rgb(114 65 255/var(--tw-border-opacity,1))}.group:hover .group-hover\:stroke-\[\#7241FF\]{stroke:#7241ff}.group:hover .group-hover\:opacity-100{opacity:1}.peer:checked~.peer-checked\:bg-peeper-purple{--tw-bg-opacity:1;background-color:rgb(93 45 230/var(--tw-bg-opacity,1))}.peer:focus~.peer-focus\:ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset)0 0 0 var(--tw-ring-offset-width)var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset)0 0 0 calc(2px + var(--tw-ring-offset-width))var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.after\:absolute:after{position:absolute}.after\:start-\[2px\]:after{inset-inline-start:2px}.after\:top-\[2px\]:after{top:2px}.after\:h-3:after{height:.75rem}.after\:w-3:after{width:.75rem}.after\:rounded-full:after{border-radius:9999px}.after\:border:after{border-width:1px}.after\:border-gray-300:after{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity,1))}.after\:bg-white:after{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.after\:transition-all:after{transition-property:all;transition-duration:.15s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.after\:content-\[\'\'\]:after{--tw-content:"";content:var(--tw-content)}.peer:checked~.peer-checked\:after\:translate-x-2:after{--tw-translate-x:.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}.peer:checked~.peer-checked\:after\:border-white:after{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity,1))}.dark\:border-gray-600:is(.dark *){--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity,1))}.dark\:bg-gray-300:is(.dark *){--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity,1))}.dark\:bg-gray-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity,1))}.dark\:text-blue-500:is(.dark *){--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity,1))}.dark\:text-gray-400:is(.dark *){--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.dark\:text-gray-600:is(.dark *){--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.dark\:text-orange-400:is(.dark *){--tw-text-opacity:1;color:rgb(251 146 60/var(--tw-text-opacity,1))}.peer:checked~.rtl\:peer-checked\:after\:-translate-x-2:where([dir=rtl],[dir=rtl] *):after{--tw-translate-x:-.5rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y))rotate(var(--tw-rotate))skewX(var(--tw-skew-x))skewY(var(--tw-skew-y))scaleX(var(--tw-scale-x))scaleY(var(--tw-scale-y))}</style><div id="plasmo-shadow-container" style="z-index: 2147483647; position: relative;"><div id="plasmo-overlay-0" class="plasmo-csui-container" style="display: flex; position: absolute; top: 0px; left: 0px;"></div></div></template></plasmo-csui><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/content/location/location.js" id="pphgdbgldlmicfdkhondlafkiomnelnk"></script><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/libs/extend-native-history-api.js"></script><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/libs/requests.js"></script><head><style data-vc-order="prependQueue" data-css-hash="1rruxmd" data-token-hash="mmblq1">.anticon{display:inline-flex;align-items:center;color:inherit;font-style:normal;line-height:0;text-align:center;text-transform:none;vertical-align:-0.125em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.anticon >*{line-height:1;}.anticon svg{display:inline-block;}.anticon .anticon .anticon-icon{display:block;}</style>
+<meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=0b24128e-3f71-4dfd-a97c-697435150294
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Palm Springs by Nakheel | Jebel Ali, Dubai</title>
+<meta name="description" content="Palm Springs by Nakheel in Jebel Ali: 3 and 4 bedroom townhouses, 4 and 5 bedroom villas, from AED 3.8M. Answer 3 questions and get the unit list on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&amp;display=swap">
+<style>
+/* Same house style as the main landing page: navy stage, limestone cards, emerald action. */
+:root{
+  --ink:#0A1322;
+  --ink-2:#101D32;
+  --ink-3:#1B2B42;
+  --paper:#F5F3EF;
+  --paper-2:#E8E4DC;
+  --action:#0B8158;     /* emerald: the one colour on the page that means go */
+  --action-lift:#0F9D6B;
+  --danger:#C0392B;     /* red is kept for errors, where it still means stop */
+  --brass:#C2A06B;
+  --orange:#F28C28;    /* highlight for the sold-out / urgency notice */
+  --text:#EDF1F6;
+  --text-dim:#AAB7C9;
+  --text-ink:#131A25;
+  --text-ink-dim:#5A6271;
+  --ok:#3E9B6D;
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-ui:'Archivo','Helvetica Neue',Arial,system-ui,sans-serif;
+  --rail:1200px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--ink);color:var(--text);
+  font-family:var(--font-ui);font-size:16px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:4px}
+a{color:inherit}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+.wrap{width:100%;max-width:var(--rail);margin-inline:auto;padding-inline:20px}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 18px}
+.eyebrow::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--brass),transparent);opacity:.45}
+.sec-label{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text-dim);margin:0 0 14px}
+h2.sec{font-family:var(--font-display);font-weight:600;font-size:clamp(25px,3.2vw,36px);line-height:1.18;letter-spacing:-.01em;margin:0 0 14px;text-wrap:balance}
+.sec-lede{font-size:16px;color:var(--text-dim);max-width:60ch;margin:0 0 30px}
+
+/* ---------- masthead ---------- */
+.masthead{border-bottom:1px solid var(--ink-3);position:relative;z-index:30}
+.masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px}
+.mark{display:flex;align-items:baseline;gap:9px;font-family:var(--font-display);font-size:19px;letter-spacing:.01em}
+.mark b{font-weight:600}
+.mark i{font-style:normal;color:var(--brass);font-family:var(--font-ui);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;align-self:center}
+.mast-right{display:flex;align-items:center;gap:14px}
+.mast-cta{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:2px;background:var(--action);color:#fff;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.02em;transition:background .16s}
+.mast-cta:hover{background:var(--action-lift)}
+@media(max-width:720px){.mast-cta{display:none}}
+
+.lang-switch{display:flex;align-items:center;gap:7px;padding:5px 11px;cursor:pointer;background:none;border:1px solid var(--ink-3);border-radius:999px;color:var(--text-dim);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;transition:border-color .16s,color .16s}
+.lang-switch:hover{border-color:var(--brass);color:var(--text)}
+.lang-switch svg{flex:none;border-radius:1px}
+.lang-switch .caret{opacity:.6;border-radius:0;transition:transform .16s}
+.lang-switch[aria-expanded="true"]{border-color:var(--brass);color:var(--text)}
+.lang-switch[aria-expanded="true"] .caret{transform:rotate(180deg)}
+.lang-wrap{position:relative}
+.lang-menu{
+  position:absolute;right:0;top:calc(100% + 9px);z-index:50;
+  min-width:192px;margin:0;padding:6px;list-style:none;
+  background:var(--ink-2);border:1px solid var(--ink-3);border-radius:4px;
+  box-shadow:0 20px 44px -20px rgba(0,0,0,.9);
+}
+.lang-menu li{margin:0}
+.lang-menu button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;text-align:left;cursor:pointer;background:none;border:0;border-radius:3px;color:var(--text);font-size:13.5px;font-weight:500;transition:background .14s,color .14s}
+.lang-menu button:hover{background:rgba(194,160,107,.1)}
+.lang-menu button[aria-selected="true"]{color:var(--brass)}
+.lang-menu button>svg:first-child{flex:none;border-radius:1px;box-shadow:0 0 0 1px rgba(255,255,255,.16)}
+.lang-menu .tick{margin-left:auto;opacity:0;color:var(--brass)}
+.lang-menu button[aria-selected="true"] .tick{opacity:1}
+@media(max-width:600px){.lang-switch>span{display:none}.lang-menu{min-width:170px}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:-20% -10% auto -10%;height:120%;
+  background:radial-gradient(58% 55% at 20% 14%,rgba(11,129,88,.2),transparent 70%),
+             radial-gradient(45% 45% at 92% 4%,rgba(194,160,107,.1),transparent 70%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative;z-index:1;padding-block:clamp(38px,6vw,70px) clamp(44px,6vw,76px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,540px);gap:clamp(30px,4.5vw,56px);align-items:center}
+@media(max-width:960px){.hero-grid{grid-template-columns:minmax(0,1fr);gap:30px}}
+h1{
+  font-family:var(--font-display);font-weight:600;
+  font-size:clamp(38px,6.2vw,68px);line-height:1.02;letter-spacing:-.02em;
+  margin:0 0 6px;text-wrap:balance;
+}
+.h1-sub{font-family:var(--font-ui);font-size:clamp(13px,1.5vw,15px);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);margin:0 0 22px}
+.hero-lede{font-size:clamp(16px,1.6vw,18.5px);color:var(--text-dim);max-width:48ch;margin:0 0 28px}
+.hero-lede b{color:var(--text);font-weight:600}
+
+.price-slab{display:inline-flex;flex-direction:column;gap:3px;padding:16px 22px;border:1px solid var(--ink-3);border-left:2px solid var(--brass);border-radius:2px;background:rgba(255,255,255,.03);margin:0 0 26px}
+.price-slab small{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text-dim)}
+.price-slab b{font-family:var(--font-display);font-size:clamp(25px,3.2vw,33px);font-weight:600;color:var(--brass);line-height:1.1;font-variant-numeric:tabular-nums}
+.price-slab em{font-style:normal;font-size:13px;color:var(--text-dim);font-variant-numeric:tabular-nums}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:2px;padding:15px 26px;cursor:pointer;font-size:15px;font-weight:600;letter-spacing:.02em;text-decoration:none;background:var(--action);color:#fff;transition:background .16s,opacity .16s}
+.btn:hover{background:var(--action-lift)}
+.btn[disabled]{opacity:.55;cursor:progress}
+.btn.ghost{background:transparent;color:var(--text-ink-dim);border-color:var(--paper-2);flex:none;padding-inline:16px}
+.btn.ghost:hover{background:var(--paper-2);color:var(--text-ink)}
+.btn.wa{background:#1FAF54;font-size:16px;padding-block:17px}
+.btn.wa:hover{background:#1A9A49}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.hero-note{font-size:13px;color:var(--text-dim)}
+
+.shot{position:relative;border:1px solid var(--ink-3);border-radius:3px;overflow:hidden;background:var(--ink-2)}
+.shot img{width:100%;height:auto}
+.shot figcaption{padding:10px 14px;font-size:11.5px;letter-spacing:.04em;color:var(--text-dim);border-top:1px solid var(--ink-3);background:var(--ink-2)}
+
+/* ---------- figures strip ---------- */
+.facts{border-top:1px solid var(--ink-3);border-bottom:1px solid var(--ink-3);background:var(--ink-2)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;padding:0;background:var(--ink-3)}
+@media(max-width:860px){.facts .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.fact{background:var(--ink-2);padding:24px 22px}
+.fact b{display:block;font-family:var(--font-display);font-weight:600;font-size:clamp(23px,2.8vw,30px);line-height:1.1;color:var(--brass);font-variant-numeric:tabular-nums}
+.fact span{display:block;margin-top:7px;font-size:13px;color:var(--text-dim);line-height:1.4}
+
+/* ---------- homes ---------- */
+section{position:relative}
+.band{padding-block:clamp(48px,6.5vw,84px)}
+.band.alt{background:var(--ink-2);border-block:1px solid var(--ink-3)}
+
+.homes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0 0 30px}
+@media(max-width:760px){.homes{grid-template-columns:1fr}}
+.home{border:1px solid var(--ink-3);border-radius:3px;padding:26px 24px;background:rgba(255,255,255,.02)}
+.home h3{font-family:var(--font-display);font-weight:600;font-size:22px;margin:0 0 4px;letter-spacing:-.005em}
+.home .beds{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin:0 0 14px}
+.home p{font-size:14px;color:var(--text-dim);margin:0}
+
+.pairs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+@media(max-width:860px){.pairs{grid-template-columns:1fr}}
+
+/* ---------- location ---------- */
+.near{list-style:none;margin:0;padding:0;display:grid;gap:1px;background:var(--ink-3);border:1px solid var(--ink-3);border-radius:3px;overflow:hidden}
+.near li{display:flex;align-items:baseline;justify-content:space-between;gap:16px;background:var(--ink);padding:14px 18px;font-size:14.5px}
+.band.alt .near li{background:var(--ink-2)}
+.near li span{color:var(--text-dim);font-size:13px;text-align:right}
+
+/* ---------- urgency ---------- */
+.flag{display:flex;gap:16px;align-items:flex-start;border:1px solid var(--ink-3);border-left:2px solid var(--orange);border-radius:2px;padding:20px 22px;background:rgba(242,140,40,.08);max-width:62ch}
+.flag svg{flex:none;margin-top:2px;color:var(--orange)}
+.flag p{margin:0;font-size:14.5px;color:var(--text-dim)}
+.flag b{color:var(--text)}
+
+/* ---------- form card ---------- */
+.ask .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,520px);gap:clamp(30px,5vw,60px);align-items:start}
+@media(max-width:960px){.ask .wrap{grid-template-columns:minmax(0,1fr)}}
+.card{
+  color-scheme:light;background:var(--paper);color:var(--text-ink);
+  border-radius:3px;box-shadow:0 1px 0 rgba(194,160,107,.9),0 28px 70px -28px rgba(0,0,0,.75);
+  overflow:hidden;position:relative;
+}
+.card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 22px;border-bottom:1px solid var(--paper-2)}
+.step-of{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text-ink-dim);font-variant-numeric:tabular-nums}
+.pips{display:flex;gap:4px}
+.pips i{width:18px;height:3px;border-radius:2px;background:var(--paper-2);transition:background .3s}
+.pips i.on{background:var(--action)}
+.card-body{padding:24px 22px 26px}
+@media(max-width:420px){.card-head{padding:14px 16px}.card-body{padding:20px 16px 22px}}
+
+.q{font-family:var(--font-display);font-weight:600;font-size:clamp(20px,2.2vw,25px);line-height:1.28;letter-spacing:-.01em;margin:0 0 4px;text-wrap:balance;color:var(--text-ink)}
+.q-note{font-size:13.5px;color:var(--text-ink-dim);margin:0 0 18px}
+
+.opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.opt{display:flex;align-items:center;gap:13px;width:100%;text-align:left;background:#fff;border:1px solid var(--paper-2);border-radius:2px;padding:14px 15px;cursor:pointer;transition:border-color .16s,background .16s,transform .16s}
+.opt:hover{border-color:var(--action)}
+.opt:active{transform:scale(.993)}
+.opt.sel{border-color:var(--action);box-shadow:inset 3px 0 0 var(--action)}
+.opt .key{flex:none;width:24px;height:24px;border-radius:2px;border:1px solid var(--paper-2);display:grid;place-items:center;font-size:11px;font-weight:700;color:var(--text-ink-dim);font-variant-numeric:tabular-nums;transition:inherit}
+.opt.sel .key,.opt:hover .key{background:var(--action);border-color:var(--action);color:#fff}
+.opt .txt{min-width:0;font-size:15.5px;font-weight:500;line-height:1.3;color:var(--text-ink)}
+.opt .sub{display:block;font-size:12.5px;font-weight:400;color:var(--text-ink-dim);margin-top:2px;font-variant-numeric:tabular-nums}
+
+.field{display:block;margin:0 0 14px}
+.field>span{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text-ink-dim);margin:0 0 6px}
+.field input{width:100%;background:#fff;border:1px solid var(--paper-2);border-radius:2px;padding:13px 14px;font-size:16px;color:var(--text-ink);transition:border-color .16s}
+.field input::placeholder{color:#A3A9B4}
+.field input:focus{border-color:var(--action);outline:none}
+.tel{display:grid;grid-template-columns:118px minmax(0,1fr);gap:8px}
+.tel select{width:100%;background:#fff;border:1px solid var(--paper-2);border-radius:2px;padding:13px 10px;font-size:16px;color:var(--text-ink);font-variant-numeric:tabular-nums}
+.tel select:focus{border-color:var(--action);outline:none}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:420px){.row2{grid-template-columns:1fr}.tel{grid-template-columns:104px minmax(0,1fr)}}
+.err{display:block;font-size:12.5px;color:var(--danger);margin-top:6px;font-weight:500}
+.actions{display:flex;align-items:center;gap:10px;margin-top:18px}
+.actions .btn{flex:1;padding-inline:20px}
+.consent{display:flex;gap:9px;margin:14px 0 0;font-size:12px;line-height:1.45;color:var(--text-ink-dim)}
+.consent svg{flex:none;margin-top:1px;color:var(--ok)}
+
+.done{text-align:center;padding:8px 0 4px}
+.seal{width:54px;height:54px;margin:0 auto 16px;border-radius:50%;background:rgba(62,155,109,.12);display:grid;place-items:center;color:var(--ok)}
+.done h2{font-family:var(--font-display);font-weight:600;font-size:26px;line-height:1.2;margin:0 0 8px;color:var(--text-ink)}
+.done p{font-size:14.5px;color:var(--text-ink-dim);margin:0 auto 20px;max-width:34ch}
+.recap{text-align:left;background:#fff;border:1px solid var(--paper-2);border-radius:2px;padding:14px 16px;margin:0 0 16px}
+.recap div{display:flex;justify-content:space-between;gap:14px;padding:6px 0;font-size:13px;border-bottom:1px solid var(--paper-2)}
+.recap div:last-child{border-bottom:0}
+.recap dt{color:var(--text-ink-dim);flex:none}
+.recap dd{margin:0;text-align:right;font-weight:600;color:var(--text-ink);min-width:0}
+.countdown{font-size:12.5px;color:var(--text-ink-dim);margin:12px 0 0;font-variant-numeric:tabular-nums}
+
+/* ---------- consultant ---------- */
+.agent{display:flex;align-items:center;gap:16px;padding:16px 18px;border:1px solid var(--ink-3);border-radius:2px;background:rgba(255,255,255,.025);max-width:460px;margin-top:28px}
+.agent .face{flex:none;width:68px;height:68px;border-radius:50%;overflow:hidden;border:1px solid rgba(194,160,107,.55)}
+.agent .face img{width:100%;height:100%;object-fit:cover}
+.agent dl{margin:0;min-width:0}
+.agent dt{font-family:var(--font-display);font-size:18px;font-weight:600}
+.agent dd{margin:2px 0 0;font-size:12.5px;color:var(--text-dim)}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--ink-3)}
+footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding-block:26px}
+footer p{margin:0;font-size:12px;color:var(--text-dim);max-width:70ch}
+footer .mark{font-size:16px}
+
+/* ---------- language gate ---------- */
+.gate{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px;background:rgba(5,10,18,.86);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
+.gate-card{width:100%;max-width:400px;background:var(--ink-2);border:1px solid var(--ink-3);border-top:2px solid var(--brass);border-radius:3px;padding:30px 26px;text-align:center;box-shadow:0 30px 80px -30px rgba(0,0,0,.9)}
+.gate-card .mark{justify-content:center;margin-bottom:20px}
+.gate-card h2{font-family:var(--font-display);font-weight:600;font-size:21px;line-height:1.35;margin:0 0 20px;text-wrap:balance}
+.gate-opts{display:grid;gap:10px}
+.lang-btn{display:flex;align-items:center;gap:13px;width:100%;padding:14px 16px;text-align:left;cursor:pointer;background:rgba(255,255,255,.03);border:1px solid var(--ink-3);border-radius:2px;transition:border-color .16s,background .16s}
+.lang-btn:hover{border-color:var(--brass);background:rgba(194,160,107,.09)}
+.lang-btn.guess{border-color:rgba(194,160,107,.55);background:rgba(194,160,107,.07)}
+.lang-btn svg{flex:none;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.16)}
+.lang-btn b{display:block;font-size:15px;font-weight:600;line-height:1.2}
+.lang-btn em{display:block;font-style:normal;font-size:12px;color:var(--text-dim);margin-top:2px}
+</style>
+<style></style><script src="chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/js/recordConsoleEvents.js"></script><style id="fk-content-app-styles">
+.image-content-iframe[data-v-0a40c6e5] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+.modal-header[data-v-0a40c6e5] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.modal-header .left[data-v-0a40c6e5] {
+  display: flex;
+  flex-direction: column;
+}
+.modal-header .title[data-v-0a40c6e5] {
+  font-size: 16px;
+  font-weight: 600;
+}
+.modal-header .sub[data-v-0a40c6e5] {
+  font-size: 12px;
+  color: #999;
+}
+.close-btn[data-v-0a40c6e5] {
+  font-size: 16px;
+  padding: 0px 0px;
+}
+
+
+.drawer-content[data-v-60f52eed] {
+  padding: 0;
+}
+.button-group[data-v-60f52eed] {
+  margin-top: 16px;
+}
+h3[data-v-60f52eed] {
+  margin-bottom: 16px;
+  color: #1890ff;
+  font-size: 18px;
+}
+
+
+.image-content-iframe[data-v-0a32fb61] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+
+/* 顶层容器 - 用于包裹悬浮按钮和模态框，保持内容独立 */
+.float-button-container[data-v-25697bb4] {
+  /* 使用 contents 让子元素保持独立布局，不受父容器影响 */
+  display: contents;
+}
+.float-button-wrapper[data-v-25697bb4] {
+  position: fixed;
+  z-index: 2147483647;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  cursor: pointer;
+  width: 40px;
+  /* 默认宽度 */
+  transition: width 0.2s ease;
+  /* 宽度变化动画 */
+}
+
+/* hover时容器宽度扩展 - 模仿FloatingAssistant */
+.float-button-wrapper[data-v-25697bb4]:hover {
+  width: 48px;
+  /* hover时扩展宽度 */
+}
+
+/* attach-right (默认状态) - 模仿FloatingAssistant */
+.float-button-wrapper.attach-right[data-v-25697bb4] {
+  align-items: flex-end;
+}
+
+/* attach-left (新增状态) - 模仿FloatingAssistant */
+.float-button-wrapper.attach-left[data-v-25697bb4] {
+  align-items: flex-start;
+}
+
+/* 拖拽时的样式 - 完全模仿 FloatingAssistant */
+.float-button-wrapper.dragging[data-v-25697bb4] {
+  transition: none;
+}
+
+/* 拖拽时按钮变为圆形 - 保持原背景色 */
+.float-button-wrapper.dragging .main-button[data-v-25697bb4] {
+  border-radius: 20px !important;
+  /* 完全圆形 */
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  box-shadow: 0 8px 20px rgba(75, 85, 99, 0.8) !important;
+  cursor: grabbing !important;
+}
+
+/* 拖拽时隐藏菜单 - 模仿 FloatingAssistant */
+.float-button-wrapper.dragging .dropdown-list[data-v-25697bb4] {
+  display: none !important;
+}
+.dropdown-list[data-v-25697bb4] {
+  /* 完全复制 FloatingAssistant 的布局 */
+  position: relative;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #fff;
+  /* 适配按钮颜色 */
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 0 4px 12px rgba(75, 85, 99, 0.3);
+  /* 默认隐藏 - 完全复制 FloatingAssistant */
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+/* 悬停时显示菜单 - 完全复制 FloatingAssistant 的逻辑 */
+.float-button-wrapper:hover .dropdown-list[data-v-25697bb4] {
+  opacity: 1;
+  max-height: 400px;
+  padding: 6px;
+  /* 与默认padding保持一致 */
+  overflow: visible; /* ⭐ 允许tooltip超出容器显示 */
+}
+
+/* attach-right 时的菜单样式 */
+.float-button-wrapper.attach-right:hover .dropdown-list[data-v-25697bb4] {
+  margin-right: 10px;
+  /* 向左偏移 */
+}
+
+/* attach-left 时的菜单样式 */
+.float-button-wrapper.attach-left:hover .dropdown-list[data-v-25697bb4] {
+  margin-left: 10px;
+  /* 向右偏移 */
+}
+.dropdown-item[data-v-25697bb4] {
+  position: relative; /* 为tooltip定位提供参照 */
+  width: 28px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.dropdown-item[data-v-25697bb4]:hover {
+  background: #f5f5f5;
+}
+
+/* ⭐ Tooltip 基础样式 - 使用 ::before 伪元素 */
+.dropdown-item[data-v-25697bb4]::before {
+  content: attr(data-tooltip);
+  /* content: '提示'; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  /* 默认右吸附（显示在左侧） */
+  right: calc(100% + 8px);
+  
+  /* 视觉样式 */
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  
+  /* 默认隐藏 */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+/* ⭐ 右吸附时：tooltip 显示在左侧 */
+.attach-right .dropdown-item[data-v-25697bb4]::before {
+  right: calc(100% + 8px);
+  left: auto;
+}
+
+/* ⭐ 左吸附时：tooltip 显示在右侧 */
+.attach-left .dropdown-item[data-v-25697bb4]::before {
+  left: calc(100% + 8px);
+  right: auto;
+}
+
+/* ⭐ Hover 显示 tooltip - 添加延迟避免快速划过时闪烁 */
+.dropdown-item[data-v-25697bb4]:hover::before {
+  opacity: 1;
+  transition-delay: 0.3s; /* 延迟0.3秒显示，避免快速划过闪烁 */
+}
+
+/* Loading状态样式 */
+.dropdown-item.loading[data-v-25697bb4] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.dropdown-item.loading[data-v-25697bb4]:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* ⭐ Loading 状态时隐藏 tooltip */
+.dropdown-item.loading[data-v-25697bb4]::before {
+  display: none;
+}
+
+/* Loading图标旋转动画 */
+.loading-icon[data-v-25697bb4] {
+  animation: spin-25697bb4 1s linear infinite;
+}
+@keyframes spin-25697bb4 {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+.main-button[data-v-25697bb4] {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: grab;
+  transition: all 0.2s ease;
+  /* 统一动画时长 */
+  box-shadow: 0 4px 12px rgba(75, 85, 99, 0.4);
+  box-sizing: border-box;
+  /* padding 包含在 width 内 */
+}
+
+/* attach-right 时的按钮样式 */
+.float-button-wrapper.attach-right .main-button[data-v-25697bb4] {
+  border-radius: 20px 0 0 20px;
+  /* 左侧圆角 */
+  justify-content: flex-start;
+  padding-left: 9px;
+  padding-right: 0;
+}
+
+/* attach-left 时的按钮样式 */
+.float-button-wrapper.attach-left .main-button[data-v-25697bb4] {
+  border-radius: 0 20px 20px 0;
+  /* 右侧圆角 */
+  justify-content: flex-end;
+  padding-right: 9px;
+  padding-left: 0;
+}
+
+/* hover时按钮宽度扩展 - 模仿FloatingAssistant的entry-content效果 */
+.float-button-wrapper:hover .main-button[data-v-25697bb4] {
+  width: 48px;
+  /* 扩展到48px */
+}
+.main-button img[data-v-25697bb4] {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-button[data-v-25697bb4]:hover {
+  box-shadow: 0 6px 16px rgba(75, 85, 99, 0.6);
+}
+
+
+
+/* SVG 图标样式 */
+svg[data-v-25697bb4] {
+  pointer-events: none;
+}
+
+/* ⭐ 高层级内容容器 - 统一管理所有弹窗的 z-index */
+.content-root-container[data-v-25697bb4] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 2147483647;
+  pointer-events: none; /* 容器本身不拦截事件 */
+}
+
+/* 容器内的弹窗恢复事件处理 */
+.content-root-container[data-v-25697bb4] .fk-ant-modal-wrap,
+.content-root-container[data-v-25697bb4] .fk-ant-drawer {
+  pointer-events: auto;
+}
+
+
+/* 顶层容器 - 用于包裹悬浮按钮和模态框，保持内容独立 */
+.pdd-container[data-v-985150d0] {
+  /* 使用 contents 让子元素保持独立布局，不受父容器影响 */
+  display: contents;
+}
+
+/* Loading图标旋转动画 */
+.loading-icon[data-v-985150d0] {
+  animation: spin-985150d0 1s linear infinite;
+}
+@keyframes spin-985150d0 {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
+/* ⭐ 高层级内容容器 - 统一管理所有弹窗的 z-index */
+.content-root-container[data-v-985150d0] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 2147483647;
+  pointer-events: none; /* 容器本身不拦截事件 */
+}
+
+/* 容器内的弹窗恢复事件处理 */
+.content-root-container[data-v-985150d0] .fk-ant-modal-wrap,
+.content-root-container[data-v-985150d0] .fk-ant-drawer {
+  pointer-events: auto;
+}
+
+
+#fk-content-app[data-v-8cad1f2a] {
+  /* 使用 contents 让子组件保持独立布局 */
+  display: contents;
+}
+
+</style></head>
+<body cz-shortcut-listen="true" __processed_df0758bf-1619-4cc1-92a5-f7a1ffd9d6dc__="true">
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle" hidden="">
+  <div class="gate-card">
+    <div class="mark"><b>Real Estate</b><i>Dubai</i></div>
+    <h2 id="gateTitle">Choose your language<br>Escolha seu idioma<br>Elige tu idioma</h2>
+    <div class="gate-opts">
+      <button type="button" class="lang-btn guess" data-lang="en">
+        <svg width="30" height="20" viewBox="0 0 24 16" aria-hidden="true">
+          <rect width="24" height="16" fill="#B22234"></rect>
+          <g fill="#fff"><rect y="1.23" width="24" height="1.23"></rect><rect y="3.69" width="24" height="1.23"></rect><rect y="6.15" width="24" height="1.23"></rect><rect y="8.62" width="24" height="1.23"></rect><rect y="11.08" width="24" height="1.23"></rect><rect y="13.54" width="24" height="1.23"></rect></g>
+          <rect width="10.5" height="8.62" fill="#3C3B6E"></rect>
+        </svg>
+        <span><b>English</b><em>United States · Canada</em></span>
+      </button>
+      <button type="button" class="lang-btn" data-lang="pt">
+        <svg width="30" height="20" viewBox="0 0 24 16" aria-hidden="true">
+          <rect width="24" height="16" fill="#009B3A"></rect>
+          <polygon points="12,1.6 22.2,8 12,14.4 1.8,8" fill="#FEDF00"></polygon>
+          <circle cx="12" cy="8" r="3.4" fill="#002776"></circle>
+        </svg>
+        <span><b>Português</b><em>Brasil</em></span>
+      </button>
+      <button type="button" class="lang-btn" data-lang="es">
+        <svg width="30" height="20" viewBox="0 0 24 16" aria-hidden="true">
+          <rect width="24" height="16" fill="#AA151B"></rect>
+          <rect y="4" width="24" height="8" fill="#F1BF00"></rect>
+        </svg>
+        <span><b>Español</b><em>España · América Latina</em></span>
+      </button>
+    </div>
+  </div>
+</div>
+<script>
+/* Runs before paint. An ad link carrying ?lang=en|pt|es skips the picker.
+   Otherwise the picker opens, but the page behind it is already in whatever
+   language the visitor's browser asks for, so English is never the fallback
+   for a Brazilian or Spanish-speaking visitor. */
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get("lang");
+    if (q === "en" || q === "pt" || q === "es"){
+      window.__lang = q;
+      document.getElementById("gate").hidden = true;
+      return;
+    }
+    var asked = navigator.languages || [navigator.language || ""];
+    for (var i = 0; i < asked.length; i++){
+      var code = String(asked[i]).slice(0, 2).toLowerCase();
+      if (code === "pt" || code === "es" || code === "en"){ window.__lang = code; break; }
+    }
+  }catch(e){}
+})();
+</script>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="mark"><b>Real Estate</b><i>Dubai</i></div>
+    <div class="mast-right">
+      <a class="mast-cta" href="#register" data-t="navCta">Get the unit list</a>
+      <div class="lang-wrap">
+        <button type="button" class="lang-switch" id="langSwitch" aria-haspopup="listbox" aria-expanded="false" aria-label="English"><svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#B22234"></rect><g fill="#fff"><rect y="1.23" width="24" height="1.23"></rect><rect y="3.69" width="24" height="1.23"></rect><rect y="6.15" width="24" height="1.23"></rect><rect y="8.62" width="24" height="1.23"></rect><rect y="11.08" width="24" height="1.23"></rect><rect y="13.54" width="24" height="1.23"></rect></g><rect width="10.5" height="8.62" fill="#3C3B6E"></rect></svg><span>English</span><svg class="caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></button>
+        <ul class="lang-menu" id="langMenu" role="listbox" hidden=""><li><button type="button" data-lang="en" aria-selected="true"><svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#B22234"></rect><g fill="#fff"><rect y="1.23" width="24" height="1.23"></rect><rect y="3.69" width="24" height="1.23"></rect><rect y="6.15" width="24" height="1.23"></rect><rect y="8.62" width="24" height="1.23"></rect><rect y="11.08" width="24" height="1.23"></rect><rect y="13.54" width="24" height="1.23"></rect></g><rect width="10.5" height="8.62" fill="#3C3B6E"></rect></svg><span>English</span><svg class="tick" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></button></li><li><button type="button" data-lang="pt" aria-selected="false"><svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#009B3A"></rect><polygon points="12,1.6 22.2,8 12,14.4 1.8,8" fill="#FEDF00"></polygon><circle cx="12" cy="8" r="3.4" fill="#002776"></circle></svg><span>Português</span><svg class="tick" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></button></li><li><button type="button" data-lang="es" aria-selected="false"><svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#AA151B"></rect><rect y="4" width="24" height="8" fill="#F1BF00"></rect></svg><span>Español</span><svg class="tick" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg></button></li></ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow" data-t="heroEyebrow">Nakheel · Jebel Ali, Dubai</p>
+          <h1>Palm Springs</h1>
+          <p class="h1-sub" data-t="heroKicker">Townhouses &amp; villas by Nakheel</p>
+          <p class="hero-lede" data-th="heroLede">Family homes on the mainland, right beside Palm Jebel Ali, minutes from Sheikh Zayed Road. <b>Launch pricing from AED 1,800 per square foot.</b></p>
+
+          <div class="price-slab">
+            <small data-t="priceLabel">Starting prices</small>
+            <b>AED 3.8M–9M</b>
+            <em>USD 1.03M–2.45M</em>
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn" href="#register" data-t="heroCta">See the units</a>
+            <span class="hero-note" data-t="heroNote">One question, then your details. Takes about thirty seconds.</span>
+          </div>
+        </div>
+
+        <figure class="shot" style="margin:0">
+          <img src="assets/hero-aerial.jpg" width="1100" height="850" alt="Aerial view of Palm Springs in Jebel Ali, next to Palm Jebel Ali" fetchpriority="high">
+          <figcaption data-t="capAerial">Palm Springs sits on the mainland between Palm Jebel Ali and Sheikh Zayed Road.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts">
+    <div class="wrap">
+      <div class="fact"><b>AED 1,800</b><span data-t="f1">Launch price per square foot, about USD 490</span></div>
+      <div class="fact"><b>3–5</b><span data-t="f2">Bedrooms, across townhouses and villas</span></div>
+      <div class="fact"><b>0%</b><span data-t="f3">Annual property tax in Dubai</span></div>
+      <div class="fact"><b>AED 2M</b><span data-t="f4">Golden Visa threshold, cleared by every unit here</span></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <p class="sec-label" data-t="homesLabel">The homes</p>
+      <h2 class="sec" data-t="homesTitle">Built for families, not for a rental yield spreadsheet</h2>
+      <p class="sec-lede" data-t="homesLede">Two formats at launch. Both sit inside the same master plan, with the streets, parks and retail drawn before the houses.</p>
+
+      <div class="homes">
+        <div class="home">
+          <h3 data-t="h1t">Townhouses</h3>
+          <p class="beds" data-t="h1b">3 and 4 bedrooms</p>
+          <p data-t="h1d">The entry into the community, and the first format to sell out in comparable Nakheel launches.</p>
+        </div>
+        <div class="home">
+          <h3 data-t="h2t">Villas</h3>
+          <p class="beds" data-t="h2b">4 and 5 bedrooms</p>
+          <p data-t="h2d">Detached homes on their own plot, with private garden and pool space.</p>
+        </div>
+      </div>
+
+      <div class="pairs">
+        <figure class="shot" style="margin:0">
+          <img src="assets/villa.jpg" width="1400" height="788" alt="Modern Nakheel villa with pool and garden" loading="lazy">
+          <figcaption data-t="capVilla">A delivered Nakheel villa at Jebel Ali Village, the neighbouring community. Official Palm Springs renders come with the launch pack.</figcaption>
+        </figure>
+        <figure class="shot" style="margin:0">
+          <img src="assets/community.jpg" width="1200" height="670" alt="Park and pool in a Nakheel community" loading="lazy">
+          <figcaption data-t="capCommunity">Parks and pools at Jebel Ali Village, by the same developer.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band alt">
+    <div class="wrap">
+      <div class="ask-grid pairs">
+        <div>
+          <p class="sec-label" data-t="locLabel">The location</p>
+          <h2 class="sec" data-t="locTitle">On the mainland, beside the second palm</h2>
+          <p class="sec-lede" data-t="locLede">Palm Jebel Ali is twice the size of Palm Jumeirah and is being built right across the water. Palm Springs is the mainland address next to it, which is what keeps the entry price where it is.</p>
+          <ul class="near">
+            <li data-t="near1">Palm Jebel Ali <span data-t="near1s">Across the water</span></li>
+            <li data-t="near2">Sheikh Zayed Road <span data-t="near2s">Exits D53 and D86</span></li>
+            <li data-t="near3">Jebel Ali Port <span data-t="near3s">Dubai's main industrial and logistics hub</span></li>
+            <li data-t="near4">Jebel Ali Wildlife Sanctuary <span data-t="near4s">Protected coastline to the west</span></li>
+          </ul>
+        </div>
+        <figure class="shot" style="margin:0">
+          <img src="assets/palm-jebel-ali.jpg" width="900" height="675" alt="Palm Jebel Ali at dusk" loading="lazy">
+          <figcaption data-t="capPalm">Palm Jebel Ali, by Nakheel. Sixteen fronds and over 90 km of beachfront, now under construction.</figcaption>
+        </figure>
+      </div>
+
+      <div class="flag" style="margin-top:34px">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+        <p data-th="urgency"><b>The first phase of Palm Jebel Ali villas sold out in hours.</b> Nakheel releases Palm Springs in phases too, and the list goes to registered buyers before the open sale.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band ask" id="register">
+    <div class="wrap">
+      <div>
+        <p class="sec-label" data-t="askLabel">Priority list</p>
+        <h2 class="sec" data-t="askTitle">Tell me what you are after</h2>
+        <p class="sec-lede" data-t="askLede">One question about the home, then your details. I match it against what is actually available and send the list over, with the payment plan.</p>
+
+        <div class="agent">
+          <div class="face"><img src="assets/isa.jpg" width="68" height="68" alt="Isadora Mello, Dubai property consultant" loading="lazy"></div>
+          <dl>
+            <dt id="agentName">Isadora Mello</dt>
+            <dd><span data-t="role">Property Consultant</span></dd>
+          </dl>
+        </div>
+      </div>
+
+      <section class="card" aria-label="Palm Springs registration">
+        <div class="card-head">
+          <span class="step-of" id="stepOf">Step 1 of 2</span>
+          <div class="pips" id="pips" aria-hidden="true"><i class="on"></i><i></i></div>
+        </div>
+        <div class="card-body" id="cardBody"><h2 class="q">What are you looking for?</h2><p class="q-note">Pick the closest one. It only sets where I start.</p><ul class="opts"><li><button type="button" class="opt" data-v="Townhouse, 3 to 4 bedrooms"><span class="key">1</span><span class="txt">Townhouses<span class="sub">3 to 4 bedroom</span></span></button></li><li><button type="button" class="opt" data-v="Villa, 4 to 5 bedrooms"><span class="key">2</span><span class="txt">Villas<span class="sub">4 to 5 bedroom</span></span></button></li><li><button type="button" class="opt" data-v="Apartment"><span class="key">3</span><span class="txt">Apartment</span></button></li></ul></div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="mark"><b>Real Estate</b><i>Dubai</i></div>
+    <p data-t="footNote">Palm Springs by Nakheel. Prices, unit mix and payment plan are pre-launch figures and are confirmed by the developer's official launch documents. Images of Jebel Ali Village and Palm Jebel Ali are shown as examples of the developer's work, not as Palm Springs. Your details are used only to prepare and send your shortlist.</p>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   EDIT THESE FIVE LINES. Nothing else needs to change.
+   ============================================================ */
+const CONFIG = {
+  agentName:        "Isadora Mello",    // consultant name shown on the page
+  whatsappNumber:   "971500000000",     // digits only, country code first, no + and no spaces
+  ghlWebhookUrl:    "",                 // GoHighLevel Inbound Webhook URL (empty = test mode, nothing is sent)
+  redirectUrl:      "",                 // GoHighLevel page to send people to after the form (empty = open WhatsApp)
+  redirectSeconds:  6                   // seconds on the thank-you screen before the redirect
+};
+/* ========================================================== */
+
+/* One question, and a second screen only when the answer is Apartment.
+   Answers are stored and sent in English whatever language the page is in,
+   so the CRM only ever sees one set of values. */
+const LOOKING = ["Townhouse, 3 to 4 bedrooms", "Villa, 4 to 5 bedrooms", "Apartment"];
+const SIZES   = ["Studio", "One bedroom", "Two bedrooms", "More"];
+
+const LANGS = ["en", "pt", "es"];
+
+const T = {
+  en: {
+    htmlLang:"en",
+    ui:{
+      navCta:"Get the unit list",
+      heroEyebrow:"Nakheel · Jebel Ali, Dubai",
+      heroKicker:"Townhouses & villas by Nakheel",
+      heroLede:'Family homes on the mainland, right beside Palm Jebel Ali, minutes from Sheikh Zayed Road. <b>Launch pricing from AED 1,800 per square foot.</b>',
+      priceLabel:"Starting prices",
+      heroCta:"See the units",
+      heroNote:"One question, then your details. Takes about thirty seconds.",
+      capAerial:"Palm Springs sits on the mainland between Palm Jebel Ali and Sheikh Zayed Road.",
+      f1:"Launch price per square foot, about USD 490",
+      f2:"Bedrooms, across townhouses and villas",
+      f3:"Annual property tax in Dubai",
+      f4:"Golden Visa threshold, cleared by every unit here",
+      homesLabel:"The homes",
+      homesTitle:"Built for families, not for a rental yield spreadsheet",
+      homesLede:"Two formats at launch. Both sit inside the same master plan, with the streets, parks and retail drawn before the houses.",
+      h1t:"Townhouses", h1b:"3 and 4 bedrooms",
+      h1d:"The entry into the community, and the first format to sell out in comparable Nakheel launches.",
+      h2t:"Villas", h2b:"4 and 5 bedrooms",
+      h2d:"Detached homes on their own plot, with private garden and pool space.",
+      capVilla:"A delivered Nakheel villa at Jebel Ali Village, the neighbouring community. Official Palm Springs renders come with the launch pack.",
+      capCommunity:"Parks and pools at Jebel Ali Village, by the same developer.",
+      locLabel:"The location",
+      locTitle:"On the mainland, beside the second palm",
+      locLede:"Palm Jebel Ali is twice the size of Palm Jumeirah and is being built right across the water. Palm Springs is the mainland address next to it, which is what keeps the entry price where it is.",
+      near1:"Palm Jebel Ali", near1s:"Across the water",
+      near2:"Sheikh Zayed Road", near2s:"Exits D53 and D86",
+      near3:"Jebel Ali Port", near3s:"Dubai's main industrial and logistics hub",
+      near4:"Jebel Ali Wildlife Sanctuary", near4s:"Protected coastline to the west",
+      capPalm:"Palm Jebel Ali, by Nakheel. Sixteen fronds and over 90 km of beachfront, now under construction.",
+      urgency:'<b>The first phase of Palm Jebel Ali villas sold out in hours.</b> Nakheel releases Palm Springs in phases too, and the list goes to registered buyers before the open sale.',
+      askLabel:"Priority list",
+      askTitle:"Tell me what you are after",
+      askLede:"One question about the home, then your details. I match it against what is actually available and send the list over, with the payment plan.",
+      role:"Property Consultant",
+      footNote:"Palm Springs by Nakheel. Prices, unit mix and payment plan are pre-launch figures and are confirmed by the developer's official launch documents. Images of Jebel Ali Village and Palm Jebel Ali are shown as examples of the developer's work, not as Palm Springs. Your details are used only to prepare and send your shortlist."
+    },
+    q:{
+      looking:"What are you looking for?",
+      size:"Which apartment size?",
+      contact:"Where should I send the list?"
+    },
+    note:{
+      looking:"Pick the closest one. It only sets where I start.",
+      size:"Apartments sit outside the Palm Springs house release, so I pull these from nearby Nakheel stock.",
+      contact:"I prepare the list and send it to you."
+    },
+    o:{
+      "Townhouse, 3 to 4 bedrooms":"Townhouses",
+      "Villa, 4 to 5 bedrooms":"Villas",
+      "Apartment":"Apartment",
+      "Studio":"Studio",
+      "One bedroom":"One bed",
+      "Two bedrooms":"Two bed",
+      "More":"More"
+    },
+    sub:{
+      "Townhouse, 3 to 4 bedrooms":"3 to 4 bedroom",
+      "Villa, 4 to 5 bedrooms":"4 to 5 bedroom"
+    },
+    f:{ first:"First name", last:"Last name", email:"Email", phone:"WhatsApp number",
+        firstPh:"First name", lastPh:"Last name", emailPh:"you@example.com", phonePh:"50 123 4567" },
+    b:{ back:"Back", submit:"Get my shortlist", sending:"Sending…", wa:"Continue on WhatsApp", go:"Continue" },
+    e:{ first:"Please enter your first name.", email:"Please check your email address.", phone:"Please enter a valid WhatsApp number." },
+    consent:"Used only to prepare and send your Palm Springs shortlist. No cold calls, never shared with third parties.",
+    stepOf:"Step {n} of {t}",
+    complete:"Complete",
+    done:{ title:"Thanks, {name}. I have what I need.",
+           sub:"Your answers come through with you, so we start from the shortlist.",
+           countdown:"Continuing in {s}s…",
+           fallback:"If nothing opened, use the button above." },
+    recap:{ looking:"Looking for", size:"Size" },
+    langName:"English"
+  },
+
+  pt: {
+    htmlLang:"pt-BR",
+    ui:{
+      navCta:"Quero a lista de unidades",
+      heroEyebrow:"Nakheel · Jebel Ali, Dubai",
+      heroKicker:"Townhouses e villas da Nakheel",
+      heroLede:'Casas de família em Jebel Ali, de frente para a Palm Jebel Ali e a minutos da Sheikh Zayed Road. <b>Preço de lançamento a partir de AED 1.800 por pé quadrado.</b>',
+      priceLabel:"Preços a partir de",
+      heroCta:"Ver as unidades",
+      heroNote:"Uma pergunta e os seus dados. Leva uns trinta segundos.",
+      capAerial:"O Palm Springs fica no continente, entre a Palm Jebel Ali e a Sheikh Zayed Road.",
+      f1:"Preço de lançamento por pé quadrado, cerca de USD 490",
+      f2:"Quartos, entre townhouses e villas",
+      f3:"Imposto anual sobre o imóvel em Dubai",
+      f4:"Valor do Golden Visa, superado por todas as unidades daqui",
+      homesLabel:"As casas",
+      homesTitle:"Feitas para família, não para planilha de rentabilidade",
+      homesLede:"Dois formatos no lançamento. Os dois dentro do mesmo masterplan, com ruas, parques e comércio desenhados antes das casas.",
+      h1t:"Townhouses", h1b:"3 e 4 quartos",
+      h1d:"A porta de entrada da comunidade, e o formato que esgota primeiro em lançamentos parecidos da Nakheel.",
+      h2t:"Villas", h2b:"4 e 5 quartos",
+      h2d:"Casas isoladas em terreno próprio, com espaço para jardim e piscina privativos.",
+      capVilla:"Villa já entregue da Nakheel no Jebel Ali Village, a comunidade vizinha. As imagens oficiais do Palm Springs saem com o material de lançamento.",
+      capCommunity:"Parques e piscinas do Jebel Ali Village, da mesma incorporadora.",
+      locLabel:"A localização",
+      locTitle:"No continente, ao lado da segunda palmeira",
+      locLede:"A Palm Jebel Ali tem o dobro do tamanho da Palm Jumeirah e está sendo construída do outro lado da água. O Palm Springs é o endereço em terra firme ao lado dela, e é isso que segura o preço de entrada onde está.",
+      near1:"Palm Jebel Ali", near1s:"Do outro lado da água",
+      near2:"Sheikh Zayed Road", near2s:"Saídas D53 e D86",
+      near3:"Porto de Jebel Ali", near3s:"Principal polo industrial e logístico de Dubai",
+      near4:"Reserva de Jebel Ali", near4s:"Costa protegida a oeste",
+      capPalm:"Palm Jebel Ali, da Nakheel. Dezesseis fronds e mais de 90 km de orla, em construção.",
+      urgency:'<b>A primeira fase das villas da Palm Jebel Ali esgotou em poucas horas.</b> A Nakheel lança o Palm Springs também por fases, e a lista vai para quem está cadastrado antes da venda aberta.',
+      askLabel:"Lista prioritária",
+      askTitle:"Me diga o que você procura",
+      askLede:"Uma pergunta sobre o imóvel e os seus dados. Eu cruzo com o que está realmente disponível e mando a lista, com o plano de pagamento.",
+      role:"Consultora Imobiliária",
+      footNote:"Palm Springs by Nakheel. Preços, tipologias e plano de pagamento são números de pré-lançamento e são confirmados pelos documentos oficiais da incorporadora. As imagens do Jebel Ali Village e da Palm Jebel Ali aparecem como exemplo do trabalho da incorporadora, não como o Palm Springs. Seus dados são usados apenas para preparar e enviar a sua seleção."
+    },
+    q:{
+      looking:"O que você procura?",
+      size:"Qual tamanho de apartamento?",
+      contact:"Para onde eu mando a lista?"
+    },
+    note:{
+      looking:"Escolha a opção mais próxima. Isso só define por onde eu começo.",
+      size:"Apartamento não entra no lançamento de casas do Palm Springs, então eu busco no estoque da Nakheel ali perto.",
+      contact:"Eu preparo a lista e te mando."
+    },
+    o:{
+      "Townhouse, 3 to 4 bedrooms":"Townhouses",
+      "Villa, 4 to 5 bedrooms":"Villas",
+      "Apartment":"Apartamento",
+      "Studio":"Studio",
+      "One bedroom":"1 quarto",
+      "Two bedrooms":"2 quartos",
+      "More":"Mais"
+    },
+    sub:{
+      "Townhouse, 3 to 4 bedrooms":"3 a 4 quartos",
+      "Villa, 4 to 5 bedrooms":"4 a 5 quartos"
+    },
+    f:{ first:"Nome", last:"Sobrenome", email:"E-mail", phone:"Número de WhatsApp",
+        firstPh:"Nome", lastPh:"Sobrenome", emailPh:"voce@exemplo.com", phonePh:"11 91234 5678" },
+    b:{ back:"Voltar", submit:"Quero minha seleção", sending:"Enviando…", wa:"Continuar no WhatsApp", go:"Continuar" },
+    e:{ first:"Digite o seu nome.", email:"Confira o seu e-mail.", phone:"Digite um número de WhatsApp válido." },
+    consent:"Usado apenas para preparar e enviar a sua seleção do Palm Springs. Sem ligação de vendedor e sem compartilhar com terceiros.",
+    stepOf:"Passo {n} de {t}",
+    complete:"Concluído",
+    done:{ title:"Obrigada, {name}. Tenho o que preciso.",
+           sub:"As suas respostas vão junto, para já começarmos pela seleção.",
+           countdown:"Continuando em {s}s…",
+           fallback:"Se nada abrir, use o botão acima." },
+    recap:{ looking:"Procura", size:"Tamanho" },
+    langName:"Português"
+  },
+
+  es: {
+    htmlLang:"es",
+    ui:{
+      navCta:"Quiero la lista de unidades",
+      heroEyebrow:"Nakheel · Jebel Ali, Dubái",
+      heroKicker:"Townhouses y villas de Nakheel",
+      heroLede:'Casas de familia en tierra firme, junto a Palm Jebel Ali y a minutos de Sheikh Zayed Road. <b>Precio de lanzamiento desde AED 1.800 por pie cuadrado.</b>',
+      priceLabel:"Precios desde",
+      heroCta:"Ver las unidades",
+      heroNote:"Una pregunta y tus datos. Lleva unos treinta segundos.",
+      capAerial:"Palm Springs está en tierra firme, entre Palm Jebel Ali y Sheikh Zayed Road.",
+      f1:"Precio de lanzamiento por pie cuadrado, unos USD 490",
+      f2:"Habitaciones, entre townhouses y villas",
+      f3:"Impuesto anual sobre la propiedad en Dubái",
+      f4:"Umbral de la Golden Visa, superado por todas estas unidades",
+      homesLabel:"Las casas",
+      homesTitle:"Pensadas para familias, no para una hoja de cálculo de rentabilidad",
+      homesLede:"Dos formatos en el lanzamiento. Los dos dentro del mismo master plan, con las calles, los parques y el comercio dibujados antes que las casas.",
+      h1t:"Townhouses", h1b:"3 y 4 habitaciones",
+      h1d:"La entrada a la comunidad, y el formato que se agota primero en lanzamientos parecidos de Nakheel.",
+      h2t:"Villas", h2b:"4 y 5 habitaciones",
+      h2d:"Casas independientes en parcela propia, con espacio para jardín y piscina privados.",
+      capVilla:"Villa ya entregada de Nakheel en Jebel Ali Village, la comunidad vecina. Las imágenes oficiales de Palm Springs llegan con el material de lanzamiento.",
+      capCommunity:"Parques y piscinas de Jebel Ali Village, de la misma promotora.",
+      locLabel:"La ubicación",
+      locTitle:"En tierra firme, junto a la segunda palmera",
+      locLede:"Palm Jebel Ali es el doble de grande que Palm Jumeirah y se está construyendo justo al otro lado del agua. Palm Springs es la dirección en tierra firme a su lado, y eso es lo que mantiene el precio de entrada donde está.",
+      near1:"Palm Jebel Ali", near1s:"Al otro lado del agua",
+      near2:"Sheikh Zayed Road", near2s:"Salidas D53 y D86",
+      near3:"Puerto de Jebel Ali", near3s:"Principal polo industrial y logístico de Dubái",
+      near4:"Reserva de Jebel Ali", near4s:"Costa protegida al oeste",
+      capPalm:"Palm Jebel Ali, de Nakheel. Dieciséis frondas y más de 90 km de costa, en construcción.",
+      urgency:'<b>La primera fase de villas de Palm Jebel Ali se agotó en pocas horas.</b> Nakheel lanza Palm Springs también por fases, y la lista va a quien está registrado antes de la venta abierta.',
+      askLabel:"Lista prioritaria",
+      askTitle:"Díme qué estás buscando",
+      askLede:"Una pregunta sobre la vivienda y tus datos. Lo cruzo con lo que está realmente disponible y te mando la lista, con el plan de pago.",
+      role:"Consultora Inmobiliaria",
+      footNote:"Palm Springs by Nakheel. Los precios, las tipologías y el plan de pago son cifras de prelanzamiento y se confirman con los documentos oficiales de la promotora. Las imágenes de Jebel Ali Village y Palm Jebel Ali se muestran como ejemplo del trabajo de la promotora, no como Palm Springs. Tus datos se usan solo para preparar y enviar tu selección."
+    },
+    q:{
+      looking:"¿Qué estás buscando?",
+      size:"¿Qué tamaño de apartamento?",
+      contact:"¿A dónde te mando la lista?"
+    },
+    note:{
+      looking:"Elige la opción más cercana. Solo marca por dónde empiezo.",
+      size:"El apartamento no entra en el lanzamiento de casas de Palm Springs, así que lo busco en el stock de Nakheel de la zona.",
+      contact:"Preparo la lista y te la mando."
+    },
+    o:{
+      "Townhouse, 3 to 4 bedrooms":"Townhouses",
+      "Villa, 4 to 5 bedrooms":"Villas",
+      "Apartment":"Apartamento",
+      "Studio":"Estudio",
+      "One bedroom":"1 habitación",
+      "Two bedrooms":"2 habitaciones",
+      "More":"Más"
+    },
+    sub:{
+      "Townhouse, 3 to 4 bedrooms":"3 a 4 habitaciones",
+      "Villa, 4 to 5 bedrooms":"4 a 5 habitaciones"
+    },
+    f:{ first:"Nombre", last:"Apellido", email:"Correo electrónico", phone:"Número de WhatsApp",
+        firstPh:"Nombre", lastPh:"Apellido", emailPh:"tu@ejemplo.com", phonePh:"612 34 56 78" },
+    b:{ back:"Atrás", submit:"Quiero mi selección", sending:"Enviando…", wa:"Continuar en WhatsApp", go:"Continuar" },
+    e:{ first:"Escribe tu nombre.", email:"Revisa tu correo electrónico.", phone:"Escribe un número de WhatsApp válido." },
+    consent:"Se usa solo para preparar y enviar tu selección de Palm Springs. Sin llamadas de venta y sin compartir con terceros.",
+    stepOf:"Paso {n} de {t}",
+    complete:"Completado",
+    done:{ title:"Gracias, {name}. Tengo lo que necesito.",
+           sub:"Tus respuestas van contigo, así empezamos por la selección.",
+           countdown:"Continuando en {s}s…",
+           fallback:"Si no se abrió nada, usa el botón de arriba." },
+    recap:{ looking:"Busca", size:"Tamaño" },
+    langName:"Español"
+  }
+};
+
+const FLAG = {
+  en:'<svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#B22234"/><g fill="#fff"><rect y="1.23" width="24" height="1.23"/><rect y="3.69" width="24" height="1.23"/><rect y="6.15" width="24" height="1.23"/><rect y="8.62" width="24" height="1.23"/><rect y="11.08" width="24" height="1.23"/><rect y="13.54" width="24" height="1.23"/></g><rect width="10.5" height="8.62" fill="#3C3B6E"/></svg>',
+  pt:'<svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#009B3A"/><polygon points="12,1.6 22.2,8 12,14.4 1.8,8" fill="#FEDF00"/><circle cx="12" cy="8" r="3.4" fill="#002776"/></svg>',
+  es:'<svg width="18" height="12" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#AA151B"/><rect y="4" width="24" height="8" fill="#F1BF00"/></svg>'
+};
+
+const DIAL = [["+971","AE"],["+55","BR"],["+1","US/CA"],["+351","PT"],["+34","ES"],["+91","IN"],["+44","GB"],
+  ["+7","RU"],["+92","PK"],["+86","CN"],["+966","SA"],["+20","EG"],["+33","FR"],["+49","DE"],
+  ["+39","IT"],["+90","TR"],["+961","LB"],["+962","JO"],["+234","NG"],["+254","KE"],["+27","ZA"],
+  ["+61","AU"],["+31","NL"],["+48","PL"],["+380","UA"],["+98","IR"],["+964","IQ"],["+974","QA"],
+  ["+965","KW"],["+973","BH"],["+968","OM"],["+65","SG"],["+852","HK"],["+81","JP"],["+82","KR"],
+  ["+62","ID"],["+60","MY"],["+63","PH"],["+880","BD"],["+94","LK"],["+41","CH"],["+46","SE"],
+  ["+32","BE"],["+353","IE"],["+45","DK"],["+47","NO"],["+30","GR"],["+40","RO"],
+  ["+972","IL"],["+212","MA"],["+213","DZ"],["+216","TN"],["+52","MX"],["+54","AR"],["+57","CO"]];
+
+/* ---------- state ---------- */
+const answers = {};
+let step = 0;
+let lang = LANGS.indexOf(window.__lang) > -1 ? window.__lang : "en";
+let L = T[lang];
+
+const gate    = document.getElementById("gate");
+const body    = document.getElementById("cardBody");
+const stepOf  = document.getElementById("stepOf");
+const pips    = document.getElementById("pips");
+const switcher= document.getElementById("langSwitch");
+const menu    = document.getElementById("langMenu");
+
+document.getElementById("agentName").textContent = CONFIG.agentName;
+pips.setAttribute("aria-hidden", "true");
+
+/* The apartment branch adds a screen, so the flow is rebuilt from the answers. */
+function flow(){
+  var f = ["looking"];
+  if (answers.looking === "Apartment") f.push("size");
+  f.push("contact");
+  return f;
+}
+function current(){ return flow()[step]; }
+
+function esc(s){
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+    return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c];
+  });
+}
+
+/* ---------- language ---------- */
+function setLang(code, rerender){
+  lang = LANGS.indexOf(code) > -1 ? code : "en";
+  L = T[lang];
+  document.documentElement.lang = L.htmlLang;
+
+  document.querySelectorAll("[data-t]").forEach(function(el){
+    var v = L.ui[el.dataset.t];
+    if (v != null){
+      var tail = el.querySelector("span");
+      if (tail){ el.childNodes[0].nodeValue = v + " "; }
+      else { el.textContent = v; }
+    }
+  });
+  document.querySelectorAll("[data-th]").forEach(function(el){
+    var v = L.ui[el.dataset.th];
+    if (v != null) el.innerHTML = v;
+  });
+
+  paintSwitcher();
+  if (rerender) render();
+}
+
+/* The masthead control names the language you are in and opens the full list. */
+function paintSwitcher(){
+  switcher.innerHTML = FLAG[lang]
+    + '<span>' + T[lang].langName + '</span>'
+    + '<svg class="caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+  switcher.setAttribute("aria-label", T[lang].langName);
+  menu.innerHTML = LANGS.map(function(code){
+    return '<li><button type="button" data-lang="' + code + '" aria-selected="' + (code === lang) + '">'
+      + FLAG[code]
+      + '<span>' + T[code].langName + '</span>'
+      + '<svg class="tick" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>'
+      + '</button></li>';
+  }).join("");
+}
+
+function closeMenu(){
+  menu.hidden = true;
+  switcher.setAttribute("aria-expanded", "false");
+}
+
+document.querySelectorAll(".lang-btn").forEach(function(b){
+  b.addEventListener("click", function(){
+    setLang(b.dataset.lang, true);
+    gate.hidden = true;
+  });
+});
+
+/* Mark the language the browser asked for, so the picker suggests rather than interrogates. */
+var guessed = document.querySelector('.lang-btn[data-lang="' + lang + '"]');
+if (guessed) guessed.classList.add("guess");
+
+switcher.addEventListener("click", function(e){
+  e.stopPropagation();
+  var opening = menu.hidden;
+  menu.hidden = !opening;
+  switcher.setAttribute("aria-expanded", opening ? "true" : "false");
+});
+
+menu.addEventListener("click", function(e){
+  var b = e.target.closest("button[data-lang]");
+  if (!b) return;
+  setLang(b.dataset.lang, true);
+  closeMenu();
+});
+
+document.addEventListener("click", function(e){
+  if (!menu.hidden && !menu.contains(e.target) && !switcher.contains(e.target)) closeMenu();
+});
+
+document.addEventListener("keydown", function(e){
+  if (e.key === "Escape") closeMenu();
+});
+
+/* ---------- card ---------- */
+function chrome(done){
+  var total = flow().length;
+  pips.innerHTML = Array(total).fill("<i></i>").join("");
+  if (done){
+    stepOf.textContent = L.complete;
+    pips.querySelectorAll("i").forEach(function(p){ p.classList.add("on"); });
+    return;
+  }
+  stepOf.textContent = L.stepOf.replace("{n}", step + 1).replace("{t}", total);
+  pips.querySelectorAll("i").forEach(function(p, i){ p.classList.toggle("on", i <= step); });
+}
+
+function render(){
+  var id = current();
+  chrome(false);
+  var html = '<h2 class="q">' + esc(L.q[id]) + '</h2>';
+  if (L.note[id]) html += '<p class="q-note">' + esc(L.note[id]) + '</p>';
+
+  if (id === "looking" || id === "size"){
+    var opts = id === "looking" ? LOOKING : SIZES;
+    html += '<ul class="opts">' + opts.map(function(v, i){
+      var sub = L.sub[v];
+      return '<li><button type="button" class="opt' + (answers[id] === v ? ' sel' : '') + '" data-v="' + esc(v) + '">'
+        + '<span class="key">' + (i + 1) + '</span>'
+        + '<span class="txt">' + esc(L.o[v] || v) + (sub ? '<span class="sub">' + esc(sub) + '</span>' : '') + '</span>'
+        + '</button></li>';
+    }).join("") + '</ul>';
+    if (step > 0){
+      html += '<div class="actions"><button type="button" class="btn ghost" data-act="back">' + esc(L.b.back) + '</button></div>';
+    }
+  }
+
+  else {
+    html += '<div class="row2">'
+      + '<label class="field" for="f_first"><span>' + esc(L.f.first) + '</span><input id="f_first" autocomplete="given-name" placeholder="' + esc(L.f.firstPh) + '" value="' + esc(answers.first_name) + '"></label>'
+      + '<label class="field" for="f_last"><span>' + esc(L.f.last) + '</span><input id="f_last" autocomplete="family-name" placeholder="' + esc(L.f.lastPh) + '" value="' + esc(answers.last_name) + '"></label>'
+      + '</div>'
+      + '<label class="field" for="f_email"><span>' + esc(L.f.email) + '</span><input id="f_email" type="email" inputmode="email" autocomplete="email" placeholder="' + esc(L.f.emailPh) + '" value="' + esc(answers.email) + '"></label>'
+      + '<label class="field" for="f_phone"><span>' + esc(L.f.phone) + '</span><span class="tel">'
+      + '<select id="f_code" aria-label="Country code">' + DIAL.map(function(d){
+          var pre = answers.country_code || ({ pt:"+55", es:"+34" }[lang] || "+1");
+          return '<option value="' + d[0] + '"' + (d[0] === pre ? " selected" : "") + '>' + d[1] + " " + d[0] + '</option>';
+        }).join("") + '</select>'
+      + '<input id="f_phone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="' + esc(L.f.phonePh) + '" value="' + esc(answers.phone_local) + '">'
+      + '</span></label>'
+      + '<span class="err" id="err" hidden></span>'
+      + '<div class="actions">'
+      + '<button type="button" class="btn ghost" data-act="back">' + esc(L.b.back) + '</button>'
+      + '<button type="button" class="btn" data-act="submit">' + esc(L.b.submit) + '</button>'
+      + '</div>'
+      + '<p class="consent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6l7-3z"/></svg>'
+      + esc(L.consent) + '</p>';
+  }
+
+  body.innerHTML = html;
+  wire();
+}
+
+function wire(){
+  body.querySelectorAll(".opt").forEach(function(b){
+    b.addEventListener("click", function(){
+      var id = current();
+      answers[id] = b.dataset.v;
+      // Leaving the apartment branch drops the size that belonged to it.
+      if (id === "looking" && b.dataset.v !== "Apartment") delete answers.size;
+      body.querySelectorAll(".opt").forEach(function(x){ x.classList.remove("sel"); });
+      b.classList.add("sel");
+      setTimeout(advance, 190);
+    });
+  });
+  body.querySelectorAll("[data-act]").forEach(function(b){
+    b.addEventListener("click", function(){
+      var a = b.dataset.act;
+      if (a === "back"){ step = Math.max(0, step - 1); render(); }
+      else if (a === "submit"){ if (collect()) submit(b); }
+    });
+  });
+}
+
+function collect(){
+  var err = document.getElementById("err");
+  function fail(m){ if (err){ err.textContent = m; err.hidden = false; } return false; }
+  if (err) err.hidden = true;
+
+  var fn = document.getElementById("f_first").value.trim();
+  var ln = document.getElementById("f_last").value.trim();
+  var em = document.getElementById("f_email").value.trim();
+  var cc = document.getElementById("f_code").value;
+  var lo = document.getElementById("f_phone").value.trim();
+  if (fn.length < 2) return fail(L.e.first);
+  if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(em)) return fail(L.e.email);
+  if (lo.replace(/\D/g, "").length < 6) return fail(L.e.phone);
+  answers.first_name = fn;
+  answers.last_name = ln;
+  answers.email = em;
+  answers.country_code = cc;
+  answers.phone_local = lo;
+  answers.phone = cc + lo.replace(/\D/g, "").replace(/^0+/, "");
+  return true;
+}
+
+function advance(){
+  if (step < flow().length - 1){
+    step++;
+    render();
+    document.getElementById("register").scrollIntoView({ behavior:"smooth", block:"center" });
+  }
+}
+
+document.addEventListener("keydown", function(e){
+  if (!gate.hidden) return;
+  if (!/^[1-4]$/.test(e.key)) return;
+  if (current() === "contact") return;
+  if (/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) return;
+  var b = body.querySelectorAll(".opt")[+e.key - 1];
+  if (b) b.click();
+});
+
+function tracking(){
+  var p = new URLSearchParams(location.search), out = {};
+  ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","fbclid","ttclid"]
+    .forEach(function(k){ out[k] = p.get(k) || ""; });
+  out.page_url = location.href;
+  out.referrer = document.referrer || "";
+  return out;
+}
+
+function payload(){
+  var t = tracking();
+  var d = {
+    first_name:   answers.first_name || "",
+    last_name:    answers.last_name || "",
+    full_name:    ((answers.first_name || "") + " " + (answers.last_name || "")).trim(),
+    email:        answers.email || "",
+    phone:        answers.phone || "",
+    country_code: answers.country_code || "",
+    looking_for:  answers.looking || "",
+    unit_size:    answers.size || "",
+    language:     ({ pt:"Portuguese", es:"Spanish" })[lang] || "English",
+    project:      "Palm Springs by Nakheel",
+    source:       "Palm Springs LP",
+    submitted_at: new Date().toISOString()
+  };
+  for (var k in t) d[k] = t[k];
+  return d;
+}
+
+function sendToCRM(data){
+  if (!CONFIG.ghlWebhookUrl) return Promise.resolve();
+  var json = JSON.stringify(data);
+  return fetch(CONFIG.ghlWebhookUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: json
+  }).catch(function(){
+    // CORS blocked the readable response, so resend opaquely and the lead still lands.
+    return fetch(CONFIG.ghlWebhookUrl, { method:"POST", mode:"no-cors", headers:{ "Content-Type":"text/plain" }, body:json });
+  }).catch(function(){
+    try { localStorage.setItem("lead_backup_" + Date.now(), json); } catch (e) {}
+  });
+}
+
+/* The consultant works in English, so the handover message is always English.
+   The lead's own language is stated on its own line so she knows how to reply. */
+function waLink(data){
+  var lines = [
+    "Hi " + CONFIG.agentName + ", I just registered for Palm Springs by Nakheel.",
+    "",
+    "Name: " + data.full_name,
+    "Looking for: " + data.looking_for
+  ];
+  if (data.unit_size) lines.push("Size: " + data.unit_size);
+  lines.push("Preferred language: " + data.language, "", "Please send the unit list and the payment plan.");
+  return "https://wa.me/" + CONFIG.whatsappNumber + "?text=" + encodeURIComponent(lines.join("\n"));
+}
+
+/* Where the person goes after the form: a GoHighLevel page when one is set, otherwise WhatsApp. */
+function destination(data){
+  return CONFIG.redirectUrl ? CONFIG.redirectUrl : waLink(data);
+}
+
+function submit(btn){
+  btn.disabled = true;
+  btn.textContent = L.b.sending;
+  var data = payload();
+  sendToCRM(data).then(function(){ done(data); });
+}
+
+function done(data){
+  chrome(true);
+  var link = destination(data);
+  var onWhatsApp = !CONFIG.redirectUrl;
+  var rows = [
+    [L.recap.looking, L.o[data.looking_for]],
+    [L.recap.size,    L.o[data.unit_size]]
+  ].filter(function(r){ return r[1]; });
+
+  body.innerHTML =
+    '<div class="done">'
+    + '<div class="seal"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div>'
+    + '<h2>' + esc(L.done.title.replace("{name}", data.first_name)) + '</h2>'
+    + '<p>' + esc(L.done.sub) + '</p>'
+    + '<dl class="recap">' + rows.map(function(r){
+        return '<div><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>';
+      }).join("") + '</dl>'
+    + '<a class="btn' + (onWhatsApp ? ' wa' : '') + '" href="' + esc(link) + '" rel="noopener">'
+    + (onWhatsApp ? '<svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5v-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 00-.7.3A3 3 0 006 11a5.2 5.2 0 001.1 2.7 11.9 11.9 0 004.6 4 5.3 5.3 0 002.4.5 2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>' : '')
+    + esc(onWhatsApp ? L.b.wa : L.b.go) + '</a>'
+    + '<p class="countdown" id="cd">' + esc(L.done.countdown.replace("{s}", CONFIG.redirectSeconds)) + '</p>'
+    + '</div>';
+
+  var left = CONFIG.redirectSeconds, cd = document.getElementById("cd");
+  var timer = setInterval(function(){
+    left--;
+    if (left > 0){ cd.textContent = L.done.countdown.replace("{s}", left); return; }
+    clearInterval(timer);
+    cd.textContent = L.done.fallback;
+    try { window.location.href = link; } catch (e) {}
+  }, 1000);
+}
+
+setLang(lang, false);
+render();
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<script async="" src="/.netlify/scripts/ar" data-netlify-deploy-id="6aee4b68b876ed7f91baa4cc" data-netlify-site-id="0b24128e-3f71-4dfd-a97c-697435150294" data-agent-runner-id="6aee4b0aa35f0b5e648e8475"></script>
+<script async="" src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="0b24128e-3f71-4dfd-a97c-697435150294" data-app-host="app.netlify.com" data-account-tier="free"></script>
+<iframe hidden="" id="fk-1688-search-extension" src="chrome-extension://ngnfcfdjhdkiohcmiakmjkjlfgigopob/handler.html"></iframe><div id="fk-search-root"><div data-v-app=""><div id="pic1688-toolbar"><div data-v-73c1df88="" id="toolbarContent" class="toolbarContent"><div data-v-73c1df88="" class="toolbarButton main-button"><svg data-v-73c1df88="" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-image-icon lucide-image" data-role="toolbarOperate" style="width: 16px; height: 16px; border-radius: 4px;"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg></div></div></div><div id="pic1688-editor-wrapper"><!----></div></div></div><div id="fk-action-loading-host"><template shadowrootmode="closed"><style>
+        .action-loading-overlay {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 2147483647;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .loading-container {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            font-size: 14px;
+            min-width: 140px;
+        }
+
+        .loading-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .loading-spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top: 2px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            flex-shrink: 0;
+        }
+
+        .loading-text {
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Transition 动画 */
+        .loading-enter-active,
+        .loading-leave-active {
+            transition: all 0.3s ease-out;
+        }
+
+        .loading-enter-from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        .loading-leave-to {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        .loading-enter-to,
+        .loading-leave-from {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style><div data-v-app=""><!----></div></template></div><script src="chrome-extension://ngnfcfdjhdkiohcmiakmjkjlfgigopob/message.js"></script><div id="fk-content-app-container" data-v-app=""><div data-v-8cad1f2a="" id="fk-content-app"><!----><!----></div></div><div id="fitkun-drop-panel">
+  <a id="fitkun-drop-panel-close-btn">×</a>
+      <div id="fitkun-drop-panel-inner">
+          <div class="fitkun-content">
+              <div class="fitkun-icon-wrap">
+                <svg class="fitkun-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5892"><path d="M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.333333-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.333333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.533333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.666667-21.333333-21.333334-21.333333z" p-id="5893"></path></svg>
+              </div>
+              <div class="fitkun-title">Drag and drop here</div>
+              <div class="fitkun-desc">The image will finish download</div>
+          </div>
+          <div id="fitkun-supported-by">Offered by Fitkun Batch Download Image</div>
+      </div>
+  </div><div id="give-freely-root-mbnbehikldjhnfehhnaidhjhoofhpehk" class="give-freely-root" data-extension-id="mbnbehikldjhnfehhnaidhjhoofhpehk" data-extension-name="CSS Peeper" style="display: block;"><template shadowrootmode="open"><style>
+  :host {
+    all: initial;
+  }
+
+  .gf-scroll-remove::-webkit-scrollbar {
+    border-radius-bottom-right: 15px;
+  }
+
+  button {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+  }
+
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .give-freely-close-button:hover {
+    opacity: 0.7;
+  }
+
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 1em 0;
+  }
+
+  dialog::backdrop  {
+    background-color: revert;
+  }
+
+  dialog.backdrop-hidden::backdrop  {
+    background-color: transparent;
+  }
+</style><div><div class="gf-app"></div></div></template></div></body></html>
