@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/plamsprings",
 }
 
 export default nextConfig
+
+
